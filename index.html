@@ -185,44 +185,51 @@
       </ul>
     </section>
     <section class="services">
-      <h2>Сервисы</h2>
-      <p>Хороший интернет-магазин отличается от плохого не только ценами!</p>
-      <p>Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.</p>
-      <ul>
-        <li><a href="#">Доставка</a></li>
-        <li><a href="#">Гарантия</a></li>
-        <li><a href="#">Кредит</a></li>
+      <h2 class="services__title">Сервисы</h2>
+      <p class="services__text">Хороший интернет-магазин отличается от плохого не только ценами!</p>
+      <p class="services__text">Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.</p>
+      <ul class="features services__features">
+        <li class="features__item">
+          <a class="features__link" href="#">Доставка</a>
+        </li>
+        <li class="features__item">
+          <a class="features__link" href="#">Гарантия</a>
+        </li>
+        <li class="features__item">
+          <a class="features__link" href="#">Кредит</a>
+        </li>
       </ul>
-      <span>Доставка</span>
-      <p>Мы с удовольствием доставим ваш товар прямо
+      <span class="features__title">Доставка</span>
+      <p class="features__text">Мы с удовольствием доставим ваш товар прямо
         к вашему подъезду совершенно бесплатно!
         Ведь мы неплохо заработаем,
         поднимая его на ваш этаж!</p>
-      <span>Гарантия</span>
-      <p>Если купленный у нас товар поломается или заискрит,
+      <span class="features__title">Гарантия</span>
+      <p class="features__text">Если купленный у нас товар поломается или заискрит,
         а также в случае пожара, спровоцированного его возгоранием, вы всегда можете быть уверены в нашей гарантии. Мы
         обменяем сгоревший товар на новый.
         Дом уж восстановите как-нибудь сами.</p>
-      <span>Кредит</span>
-      <p>Залезть в долговую яму стало проще!
+      <span class="features__title">Кредит</span>
+      <p class="features__text">Залезть в долговую яму стало проще!
         Кредитные консультанты придут вам на помощь.</p>
-      <a href="#">Отправить заявку</a>
+      <a class="features__link" href="#">Отправить заявку</a>
     </section>
     <section class="about-company">
-      <h2>Компания «Техномарт»</h2>
-      <p>Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для ремонта и строительства не оставит
+      <h2 class="about-company__title">Компания «Техномарт»</h2>
+      <p class="about-company__text">Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для ремонта и
+        строительства не оставит
         равнодушными любителей сэкономить на гастарбайтерах.</p>
-      <p>Мы можем доставить ваш товар в самые отдаленные точки России!
+      <p class="about-company__text">Мы можем доставить ваш товар в самые отдаленные точки России!
         Техномарт работает со многими транспортными компаниями:</p>
-      <ul>
-        <li>
-          <p>Деловые линии</p>
+      <ul class="delivery about-company__delivery">
+        <li class="delivery__item">
+          <p class="delivery__text">Деловые линии</p>
         </li>
-        <li>
-          <p>Автотрейдинг</p>
+        <li class="delivery__item">
+          <p class="delivery__text">Автотрейдинг</p>
         </li>
-        <li>
-          <p>ЖелДорЭкспедиция</p>
+        <li class="delivery__item">
+          <p class="delivery__text">ЖелДорЭкспедиция</p>
         </li>
       </ul>
       <a href="#">Подробнее о компании</a>
@@ -233,30 +240,48 @@
     </section>
   </main>
   <footer class="footer">
-    <a href="#"><img src="img/footer-logo.svg" alt="Логотип Техномарт"></a>
-    <ul>
-      <li><a href="#">Компания</a></li>
-      <li><a href="#">Новости</a></li>
-      <li><a href="catalog.html">Каталог</a></li>
-      <li><a href="#">Доставка</a></li>
-      <li><a href="#">Контакты</a></li>
+    <a class="footer__logo" href="#"><img class="footer__image" src="img/footer-logo.svg" alt="Логотип Техномарт"></a>
+    <ul class="menu footer__menu">
+      <li class="menu__item">
+        <a class="menu__link" href="#">Компания</a>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="#">Новости</a>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="catalog.html">Каталог</a>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="#">Доставка</a>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="#">Контакты</a>
+      </li>
     </ul>
-    <address>
-      <p>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
-      <a href="#">+7 (812) 555-05-55</a>
+    <address class="address">
+      <p class="address__text">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
+      <a class="address__link" href="#">+7 (812) 555-05-55</a>
     </address>
-    <ul>
-      <li><a href="#">Материалы</a></li>
-      <li><a href="#">Техника</a></li>
-      <li><a href="#">Инструмент</a></li>
-      <li><a href="#">Спецпредложения</a></li>
+    <ul class="products footer__products">
+      <li class="products__item">
+        <a class="products__link" href="#">Материалы</a>
+      </li>
+      <li class="products__item">
+        <a class="products__link" href="#">Техника</a>
+      </li>
+      <li class="products__item">
+        <a class="products__link" href="#">Инструмент</a>
+      </li>
+      <li class="products__item">
+        <a class="products__link" href="#">Спецпредложения</a>
+      </li>
     </ul>
     <div class="copyright">
-      <p>© 2010–2019 Компания «Техномарт» Все права защищены</p>
-      <p>Обратная связь:</p>
-      <a href="#">mail@htmlacademy.ru</a>
-      <p>Разработано —</p>
-      <a href="https://htmlacademy.ru/intensive/htmlcss">htmlacademy.ru</a>
+      <p class="copyright__text">© 2010–2019 Компания «Техномарт» Все права защищены</p>
+      <p class="copyright__feedback">Обратная связь:</p>
+      <a class="copyright__link" href="#">mail@htmlacademy.ru</a>
+      <p class="copyright__designed-by">Разработано —</p>
+      <a class="copyright__link" href="https://htmlacademy.ru/intensive/htmlcss">htmlacademy.ru</a>
     </div>
   </footer>
   <script src="js/script.js"></script>

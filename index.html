@@ -12,67 +12,79 @@
 
   <header class="header">
 
-    <a class="logo" href="#">
-      <img class="logo__image" src="img/header-logo.svg" width="109" height="19" alt="Логотип Техномарт">
-    </a>
+    <div class="header__top">
 
-    <form class="search" action="#">
-      <label class="search__label">
-        <input class="search__input" type="text" placeholder="Поиск:">
-      </label>
-      <button class="search__button" type="submit"></button>
-    </form>
+      <a class="logo" href="#">
+        <img class="logo__image" src="img/header-logo.svg" width="109" height="19" alt="Логотип Техномарт">
+      </a>
 
-    <a class="bookmarks" href="#">Закладки: 0</a>
+      <form class="search" action="#">
+        <label class="search__label">
+          <input class="search__input" type="text" placeholder="Поиск:">
+        </label>
+        <button class="search__button" type="submit"></button>
+      </form>
 
-    <a class="basket" href="#">Корзина: 10</a>
+      <a class="bookmarks" href="#">Закладки: 0</a>
 
-    <a class="checkout" href="#">Оформить заказ</a>
+      <a class="basket" href="#">Корзина: 10</a>
 
-    <h1 class="info">Интернет-магазин строительных материалов и инструментов для ремонта</h1>
+      <a class="checkout" href="#">Оформить заказ</a>
 
-    <address class="address header__address">
+    </div>
 
-      <a class="address__link" href="tel:+78125550555">+7 (812) 555-05-55</a>
+    <div class="header__center">
 
-      <p class="address__text">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
+      <h1 class="info">Интернет-магазин строительных материалов и инструментов для ремонта</h1>
 
-    </address>
+      <address class="address header__address">
 
-    <ul class="login">
-      <li>
-        <a class="login__in" href="#">Войти</a>
-      </li>
-      <li>
-        <a class="login__registration" href="#">Регистрация</a>
-      </li>
-    </ul>
+        <a class="address__link" href="tel:+78125550555">+7 (812) 555-05-55</a>
 
-    <nav class="menu">
-      <ul class="menu__list">
-        <li class="menu__item">
-          <a class="menu__link" href="#">Главная</a>
+        <p class="address__text">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
+
+      </address>
+
+      <ul class="login">
+        <li>
+          <a class="login__in" href="#">Войти</a>
         </li>
-        <li class="menu__item">
-          <a class="menu__link" href="#">Компания</a>
-        </li>
-        <li class="menu__item">
-          <a class="menu__link" href="catalog.html">Каталог</a>
-        </li>
-        <li class="menu__item">
-          <a class="menu__link" href="#">Новости</a>
-        </li>
-        <li class="menu__item">
-          <a class="menu__link" href="#">Спецпредложения</a>
-        </li>
-        <li class="menu__item">
-          <a class="menu__link" href="#">Доставка</a>
-        </li>
-        <li class="menu__item">
-          <a class="menu__link" href="#">Контакты</a>
+        <li>
+          <a class="login__registration" href="#">Регистрация</a>
         </li>
       </ul>
-    </nav>
+
+    </div>
+
+    <div class="header__bottom">
+
+      <nav class="menu">
+        <ul class="menu__list">
+          <li class="menu__item">
+            <a class="menu__link" href="#">Главная</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#">Компания</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="catalog.html">Каталог</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#">Новости</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#">Спецпредложения</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#">Доставка</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#">Контакты</a>
+          </li>
+        </ul>
+      </nav>
+
+    </div>
 
   </header>
 
@@ -436,61 +448,69 @@
 
   <footer class="footer">
 
-    <a class="footer__logo" href="#">
-      <img class="footer__image" src="img/footer-logo.svg" alt="Логотип Техномарт">
-    </a>
+    <div class="footer__top">
 
-    <ul class="menu footer__menu">
+      <a class="footer__logo" href="#">
+        <img class="footer__image" src="img/footer-logo.svg" alt="Логотип Техномарт">
+      </a>
 
-      <li class="menu__item">
-        <a class="menu__link" href="#">Компания</a>
-      </li>
+      <ul class="menu footer__menu">
 
-      <li class="menu__item">
-        <a class="menu__link" href="#">Новости</a>
-      </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#">Компания</a>
+        </li>
 
-      <li class="menu__item">
-        <a class="menu__link" href="catalog.html">Каталог</a>
-      </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#">Новости</a>
+        </li>
 
-      <li class="menu__item">
-        <a class="menu__link" href="#">Доставка</a>
-      </li>
+        <li class="menu__item">
+          <a class="menu__link" href="catalog.html">Каталог</a>
+        </li>
 
-      <li class="menu__item">
-        <a class="menu__link" href="#">Контакты</a>
-      </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#">Доставка</a>
+        </li>
 
-    </ul>
+        <li class="menu__item">
+          <a class="menu__link" href="#">Контакты</a>
+        </li>
 
-    <address class="address footer__address">
+      </ul>
 
-      <p class="address__text">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
+    </div>
 
-      <a class="address__link" href="+78125550555">+7 (812) 555-05-55</a>
+    <div class="footer__bottom">
 
-    </address>
+      <address class="address footer__address">
 
-    <ul class="products footer__products">
+        <p class="address__text">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
 
-      <li class="products__item">
-        <a class="products__link" href="#">Материалы</a>
-      </li>
+        <a class="address__link" href="+78125550555">+7 (812) 555-05-55</a>
 
-      <li class="products__item">
-        <a class="products__link" href="#">Техника</a>
-      </li>
+      </address>
 
-      <li class="products__item">
-        <a class="products__link" href="#">Инструмент</a>
-      </li>
+      <ul class="products footer__products">
 
-      <li class="products__item">
-        <a class="products__link" href="#">Спецпредложения</a>
-      </li>
+        <li class="products__item">
+          <a class="products__link" href="#">Материалы</a>
+        </li>
 
-    </ul>
+        <li class="products__item">
+          <a class="products__link" href="#">Техника</a>
+        </li>
+
+        <li class="products__item">
+          <a class="products__link" href="#">Инструмент</a>
+        </li>
+
+        <li class="products__item">
+          <a class="products__link" href="#">Спецпредложения</a>
+        </li>
+
+      </ul>
+
+    </div>
 
     <div class="copyright">
 

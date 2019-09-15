@@ -18,9 +18,9 @@
         <img class="logo__image" src="img/header-logo.svg" width="109" height="19" alt="Логотип Техномарт">
       </a>
 
-      <form class="search" action="#">
+      <form class="search" action="https://echo.htmlacademy.ru">
         <label class="search__label">
-          <input class="search__input" type="text" placeholder="Поиск:">
+          <input class="search__input" type="text" name="search" placeholder="Поиск:">
         </label>
         <button class="search__button" type="submit"></button>
       </form>
@@ -92,7 +92,7 @@
 
     <section class="products">
 
-      <h2 class="products__title visually-hidden">Наши продукты</h2> <!-- Визуально скрытый заголовок раздела -->
+      <h2 class="products__title visually-hidden">Наши продукты</h2>
 
       <div class="product product--new">
         <span class="product__title">Материалы</span>
@@ -530,23 +530,23 @@
 
   <section class="write-us">
 
-    <h2>Напишите нам</h2>
+    <h2 class="visually-hidden">Напишите нам</h2>
 
-    <form action="#">
+    <form action="https://echo.htmlacademy.ru">
 
       <label>
         <span>Ваше имя:</span>
-        <input type="text" placeholder="Имя Фамилия">
+        <input type="text" name="name" placeholder="Имя Фамилия">
       </label>
 
       <label>
         <span>Ваш e-mail:</span>
-        <input type="email" placeholder="email@example.com">
+        <input type="email" name="email" placeholder="email@example.com">
       </label>
 
       <label>
         <span>Текст письма:</span>
-        <textarea>В свободной форме</textarea>
+        <textarea name="message">В свободной форме</textarea>
       </label>
 
       <button type="submit">Отправить</button>
@@ -556,6 +556,12 @@
     </form>
 
   </section>
+
+  <div class="map-popup">
+
+    <button type="button">Закрыть</button>
+
+  </div>
 
   <script src="js/script.js"></script>
 </body>

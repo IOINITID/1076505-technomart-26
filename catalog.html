@@ -18,9 +18,9 @@
         <img class="logo__image" src="img/header-logo.svg" width="109" height="19" alt="Логотип Техномарт">
       </a>
 
-      <form class="search" action="#">
+      <form class="search" action="https://echo.htmlacademy.ru">
         <label class="search__label">
-          <input class="search__input" type="text" placeholder="Поиск:">
+          <input class="search__input" type="text" name="search" placeholder="Поиск:">
         </label>
         <button class="search__button" type="submit"></button>
       </form>
@@ -138,60 +138,76 @@
 
         <h2 class="filter__title">Фильтр:</h2>
 
-        <form action="#">
+        <form action="https://echo.htmlacademy.ru">
 
           <span class="filter__cost">Цена:</span>
 
           <label>
-            <input type="range" name="#">
+            <input type="range">
           </label>
 
           <label>
-            <input type="number" name="#" placeholder="0">
+            <input type="number" name="cost-from" placeholder="0">
           </label>
 
           <label>
-            <input type="number" name="#" placeholder="30000">
+            <input type="number" name="cost-to" placeholder="30000">
           </label>
 
-          <span class="filter__manufacturers">Производители:</span>
+          <fieldset>
 
-          <label>
-            <span class="filter__manufacturer">Bosch</span>
-            <input type="checkbox" name="#">
-          </label>
+            <legend>
 
-          <label>
-            <span class="filter__manufacturer">Интерскол</span>
-            <input type="checkbox" name="#">
-          </label>
+              <span class="filter__manufacturers">Производители:</span>
 
-          <label>
-            <span class="filter__manufacturer">Makita</span>
-            <input type="checkbox" name="#">
-          </label>
+            </legend>
 
-          <label>
-            <span class="filter__manufacturer">Dewalt</span>
-            <input type="checkbox" name="#">
-          </label>
+            <label>
+              <span class="filter__manufacturer">Bosch</span>
+              <input type="checkbox" name="bosch">
+            </label>
 
-          <label>
-            <span class="filter__manufacturer">Hitachi</span>
-            <input type="checkbox" name="#">
-          </label>
+            <label>
+              <span class="filter__manufacturer">Интерскол</span>
+              <input type="checkbox" name="interscop">
+            </label>
 
-          <span class="filter__supply">Питание:</span>
+            <label>
+              <span class="filter__manufacturer">Makita</span>
+              <input type="checkbox" name="makita">
+            </label>
 
-          <label>
-            <span class="filter__supply-item">Аккумуляторные</span>
-            <input type="radio" name="#">
-          </label>
+            <label>
+              <span class="filter__manufacturer">Dewalt</span>
+              <input type="checkbox" name="dewalt">
+            </label>
 
-          <label>
-            <span class="filter__supply-item">Сетевые</span>
-            <input type="radio" name="#">
-          </label>
+            <label>
+              <span class="filter__manufacturer">Hitachi</span>
+              <input type="checkbox" name="hitachi">
+            </label>
+
+          </fieldset>
+
+          <fieldset>
+
+            <legend>
+
+              <span class="filter__supply">Питание:</span>
+
+            </legend>
+
+            <label>
+              <span class="filter__supply-item">Аккумуляторные</span>
+              <input type="radio" name="supply" value="rechargeable">
+            </label>
+
+            <label>
+                <span class="filter__supply-item">Сетевые</span>
+                <input type="radio" name="supply" value="network">
+            </label>
+
+          </fieldset>
 
           <button class="filter__button" type="submit">Показать</button>
 
@@ -545,23 +561,23 @@
 
   <section class="write-us">
 
-    <h2>Напишите нам</h2>
+    <h2 class="visually-hidden">Напишите нам</h2>
 
-    <form action="#">
+    <form action="https://echo.htmlacademy.ru">
 
       <label>
         <span>Ваше имя:</span>
-        <input type="text" placeholder="Имя Фамилия">
+        <input type="text" name="name" placeholder="Имя Фамилия">
       </label>
 
       <label>
         <span>Ваш e-mail:</span>
-        <input type="email" placeholder="email@example.com">
+        <input type="email" name="email" placeholder="email@example.com">
       </label>
 
       <label>
         <span>Текст письма:</span>
-        <textarea>В свободной форме</textarea>
+        <textarea name="message">В свободной форме</textarea>
       </label>
 
       <button type="submit">Отправить</button>
@@ -571,6 +587,18 @@
     </form>
 
   </section>
+
+  <div class="cart-popup">
+
+    <p>Товар добавлен в корзинку!</p>
+
+    <a href="#">Оформить заказ</a>
+
+    <a href="#">Продолжить покупки</a>
+
+    <button type="button">Закрыть</button>
+
+  </div>
 
   <script src="js/script.js"></script>
 </body>

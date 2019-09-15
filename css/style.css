@@ -3,24 +3,27 @@
   font-weight: 400;
   src: url("../fonts/web/cuprum.woff") format("woff"),
     url("../fonts/web/cuprum.woff2") format("woff2");
-}
+} */
 
-body {
+/* body {
   width: 100%;
   font-family: "Cuprum", "Arial", sans-serif;
   font-size: 14px;
-}
+} */
 
-.wrapper {
+/* .wrapper {
   width: 1200px;
   height: 100vh;
   margin: 0 auto;
-}
+} */
 
 .visually-hidden {
   position: absolute;
-  clip: rect(0 0 0 0);
   width: 1px;
   height: 1px;
   margin: -1px;
-} */
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}

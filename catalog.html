@@ -140,71 +140,67 @@
 
         <form action="https://echo.htmlacademy.ru">
 
-          <span class="filter__cost">Цена:</span>
-
-          <label>
-            <input type="range">
-          </label>
-
-          <label>
-            <input type="number" name="cost-from" placeholder="0">
-          </label>
-
-          <label>
-            <input type="number" name="cost-to" placeholder="30000">
-          </label>
-
           <fieldset>
 
-            <legend>
-
-              <span class="filter__manufacturers">Производители:</span>
-
-            </legend>
+            <legend class="filter__heading">Цена:</legend>
 
             <label>
-              <span class="filter__manufacturer">Bosch</span>
-              <input type="checkbox" name="bosch">
+              <input type="range">
             </label>
 
             <label>
-              <span class="filter__manufacturer">Интерскол</span>
-              <input type="checkbox" name="interscop">
+              <input type="number" name="cost-from" placeholder="0">
             </label>
 
             <label>
-              <span class="filter__manufacturer">Makita</span>
-              <input type="checkbox" name="makita">
-            </label>
-
-            <label>
-              <span class="filter__manufacturer">Dewalt</span>
-              <input type="checkbox" name="dewalt">
-            </label>
-
-            <label>
-              <span class="filter__manufacturer">Hitachi</span>
-              <input type="checkbox" name="hitachi">
+              <input type="number" name="cost-to" placeholder="30000">
             </label>
 
           </fieldset>
 
           <fieldset>
 
-            <legend>
+            <legend class="filter__heading">Производители:</legend>
 
-              <span class="filter__supply">Питание:</span>
-
-            </legend>
-
-            <label>
-              <span class="filter__supply-item">Аккумуляторные</span>
-              <input type="radio" name="supply" value="rechargeable">
+            <label class="filter__item">
+              <span class="filter__item-title">Bosch</span>
+              <input class="filter__item-checkbox" type="checkbox" name="bosch">
             </label>
 
-            <label>
-                <span class="filter__supply-item">Сетевые</span>
-                <input type="radio" name="supply" value="network">
+            <label class="filter__item">
+              <span class="filter__item-title">Интерскол</span>
+              <input class="filter__item-checkbox" type="checkbox" name="interscop">
+            </label>
+
+            <label class="filter__item">
+              <span class="filter__item-title">Makita</span>
+              <input class="filter__item-checkbox" type="checkbox" name="makita">
+            </label>
+
+            <label class="filter__item">
+              <span class="filter__item-title">Dewalt</span>
+              <input class="filter__item-checkbox" type="checkbox" name="dewalt">
+            </label>
+
+            <label class="filter__item">
+              <span class="filter__item-title">Hitachi</span>
+              <input class="filter__item-checkbox" type="checkbox" name="hitachi">
+            </label>
+
+          </fieldset>
+
+          <fieldset>
+
+            <legend class="filter__heading">Питание:</legend>
+
+            <label class="filter__item">
+              <span class="filter__item-title">Аккумуляторные</span>
+              <input class="filter__item-radio" type="radio" name="supply" value="rechargeable">
+            </label>
+
+            <label class="filter__item">
+              <span class="filter__item-title">Сетевые</span>
+              <input class="filter__item-radio" type="radio" name="supply" value="network">
             </label>
 
           </fieldset>

@@ -120,7 +120,7 @@ body {
 }
 
 .search__input {
-  background-color: inherit;
+  background-color: #293449;
   border: none;
   width: 270px;
   font-size: 17px;
@@ -137,7 +137,7 @@ body {
   height: 17px;
   background-image: url("../img/search-icon.svg");
   opacity: 0.3;
-  background-color: inherit;
+  background-color: #293449;
   border: none;
   position: absolute;
   top: 12px;
@@ -268,7 +268,7 @@ body {
   text-decoration: none;
   background-color: #63a63e;
   padding-top: 11px;
-  padding-right: 22px;
+  padding-right: 21px;
   padding-bottom: 12px;
   padding-left: 20px;
 }

@@ -1174,7 +1174,8 @@ body {
   font-weight: 400;
   line-height: 18px;
   margin: 0;
-  font-kerning: none;
+  /* font-kerning: none; */
+  padding-left: 1px;
 }
 
 .copyright__socials {
@@ -1184,7 +1185,7 @@ body {
   display: flex;
   justify-content: space-between;
   width: 132px;
-  padding-left: 162px;
+  padding-left: 158px;
 }
 
 .copyright__socials-item {
@@ -1214,7 +1215,6 @@ body {
   font-size: 16px;
   font-weight: 400;
   line-height: 18px;
-  width: 96px;
   margin: 0;
   font-style: normal;
 }

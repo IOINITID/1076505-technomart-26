@@ -299,10 +299,12 @@ body {
   line-height: 23px;
   padding-top: 3px;
   margin: 0;
+  width: 196px;
 }
 
 .header__address {
-  margin-left: 72px;
+  margin-left: 71px;
+  width: 270px;
 }
 
 .address__link {
@@ -344,9 +346,7 @@ body {
   padding: 0;
   margin: 0;
   display: flex;
-  margin-left: 70px;
-  width: 281px;
-  justify-content: space-between;
+  margin-left: 69px;
 }
 
 .login__in {
@@ -358,6 +358,8 @@ body {
   padding: 10px 26px 11px 47px;
   position: relative;
   display: flex;
+  width: 121px;
+  margin-right: 10px;
 }
 
 .login__in::before {
@@ -367,7 +369,7 @@ body {
   background-image: url("../img/login-icon.svg");
   position: absolute;
   top: 14px;
-  left: 14px;
+  left: 15px;
 }
 
 .login__registration {
@@ -376,9 +378,10 @@ body {
   color: #000000;
   font-size: 21px;
   font-weight: 400;
-  padding: 10px 24px 11px 25px;
+  padding: 10px 24px 11px 24px;
   position: relative;
   display: flex;
+  width: 150px;
 }
 
 .menu {
@@ -405,27 +408,27 @@ body {
   line-height: 17px;
 }
 
-.menu__link:nth-of-type(1) {
+.menu__item:nth-of-type(1) .menu__link {
   margin-right: 64px;
 }
 
-.menu__link:nth-of-type(2) {
+.menu__item:nth-of-type(2) .menu__link {
   margin-right: 58px;
 }
 
-.menu__link:nth-of-type(3) {
+.menu__item:nth-of-type(3) .menu__link {
   margin-right: 60px;
 }
 
-.menu__link:nth-of-type(4) {
+.menu__item:nth-of-type(4) .menu__link {
   margin-right: 59px;
 }
 
-.menu__link:nth-of-type(5) {
+.menu__item:nth-of-type(5) .menu__link {
   margin-right: 63px;
 }
 
-.menu__link:nth-of-type(6) {
+.menu__item:nth-of-type(6) .menu__link {
   margin-right: 62px;
 }
 

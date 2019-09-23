@@ -397,7 +397,7 @@ body {
   margin: 0 auto;
   display: flex;
   align-items: center;
-  padding: 20px 55px 22px 52px;
+  /* padding: 20px 55px 22px 52px; */
 }
 
 .menu__link {
@@ -406,30 +406,114 @@ body {
   font-weight: 400;
   text-decoration: none;
   line-height: 17px;
+ display: flex;
+ padding-top: 20px;
+ padding-bottom: 22px;
 }
 
 .menu__item:nth-of-type(1) .menu__link {
-  margin-right: 64px;
+  padding-left: 52px;
+  padding-right: 31px;
+}
+
+.menu__item:nth-of-type(1) .menu__link:hover,
+.menu__item:nth-of-type(1) .menu__link:focus {
+  background-color: #293449;
+}
+
+.menu__item:nth-of-type(1) .menu__link:active {
+  background-color: #1d2739;
+  color: rgba(255, 255, 255, 0.5);
 }
 
 .menu__item:nth-of-type(2) .menu__link {
-  margin-right: 58px;
+padding-left: 32px;
+padding-right: 31px;
+}
+
+.menu__item:nth-of-type(2) .menu__link:hover,
+.menu__item:nth-of-type(2) .menu__link:focus {
+  background-color: #293449;
+}
+
+.menu__item:nth-of-type(2) .menu__link:active {
+  background-color: #1d2739;
+  color: rgba(255, 255, 255, 0.5);
 }
 
 .menu__item:nth-of-type(3) .menu__link {
-  margin-right: 60px;
+  padding-left: 28px;
+  padding-right: 28px;
+}
+
+.menu__item:nth-of-type(3) .menu__link:hover,
+.menu__item:nth-of-type(3) .menu__link:focus {
+  background-color: #293449;
+}
+
+.menu__item:nth-of-type(3) .menu__link:active {
+  background-color: #1d2739;
+  color: rgba(255, 255, 255, 0.5);
 }
 
 .menu__item:nth-of-type(4) .menu__link {
-  margin-right: 59px;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+.menu__item:nth-of-type(4) .menu__link:hover,
+.menu__item:nth-of-type(4) .menu__link:focus {
+  background-color: #293449;
+}
+
+.menu__item:nth-of-type(4) .menu__link:active {
+  background-color: #1d2739;
+  color: rgba(255, 255, 255, 0.5);
 }
 
 .menu__item:nth-of-type(5) .menu__link {
-  margin-right: 63px;
+  padding-left: 27px;
+  padding-right: 27px;
+}
+
+.menu__item:nth-of-type(5) .menu__link:hover,
+.menu__item:nth-of-type(5) .menu__link:focus {
+  background-color: #293449;
+}
+
+.menu__item:nth-of-type(5) .menu__link:active {
+  background-color: #1d2739;
+  color: rgba(255, 255, 255, 0.5);
 }
 
 .menu__item:nth-of-type(6) .menu__link {
-  margin-right: 62px;
+  padding-left: 36px;
+  padding-right: 36px;
+}
+
+.menu__item:nth-of-type(6) .menu__link:hover,
+.menu__item:nth-of-type(6) .menu__link:focus {
+  background-color: #293449;
+}
+
+.menu__item:nth-of-type(6) .menu__link:active {
+  background-color: #1d2739;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.menu__item:nth-of-type(7) .menu__link {
+  padding-left: 26px;
+  padding-right: 55px;
+}
+
+.menu__item:nth-of-type(7) .menu__link:hover,
+.menu__item:nth-of-type(7) .menu__link:focus {
+  background-color: #293449;
+}
+
+.menu__item:nth-of-type(7) .menu__link:active {
+  background-color: #1d2739;
+  color: rgba(255, 255, 255, 0.5);
 }
 
 .header__bottom {
@@ -649,6 +733,7 @@ body {
   justify-content: space-between;
   padding-left: 28px;
   padding-right: 24px;
+  margin-bottom: 20px;
 }
 
 .popular-manufacturers__title {
@@ -712,20 +797,23 @@ body {
   display: flex;
   width: 940px;
   justify-content: space-between;
-  padding-top: 20px;
   padding-bottom: 21px;
 }
 
 .item {
   border: 1px solid #eaeaea;
   background-color: #ffffff;
-  display: inline-flex;
+  display: flex;
   flex-direction: column;
   justify-content: space-between;
   font-family: "PT Sans";
   align-items: center;
-  width: 218px;
-  height: 316px;
+  width: 220px;
+  min-height: 318px;
+}
+
+.item__image-link {
+  display: flex;
 }
 
 .item__title-link {
@@ -737,10 +825,10 @@ body {
   font-size: 18px;
   font-weight: 700;
   line-height: 20px;
-  width: 155px;
+  width: 157px;
   text-align: center;
   margin: 0;
-  padding-bottom: 18px;
+  padding-bottom: 11px;
 }
 
 .item__old-price {
@@ -750,7 +838,7 @@ body {
   line-height: 18px;
   text-decoration: line-through;
   text-transform: uppercase;
-  padding-bottom: 13px;
+  padding-bottom: 10px;
 }
 
 .item__price {
@@ -759,9 +847,11 @@ body {
   font-weight: 700;
   line-height: 18px;
   text-transform: uppercase;
-  width: 141px;
+  width: 147px;
   height: 38px;
   background-image: url("../img/red-button-icon.svg");
+  background-repeat: no-repeat;
+  background-position-x: 6px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -771,8 +861,9 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  padding: 12px 32px 21px 32px;
+  padding: 9px 32px 20px 31px;
+  min-height: 146px;
+  justify-content: space-between;
 }
 
 .item__order-buttons {

@@ -807,7 +807,6 @@ body {
   background-color: #ffffff;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   font-family: "PT Sans";
   align-items: center;
   width: 220px;
@@ -997,6 +996,7 @@ body {
   flex-direction: column;
   margin-top: 71px;
   position: relative;
+  background-color: #32425c;
 }
 
 .features::before {

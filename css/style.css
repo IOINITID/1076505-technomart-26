@@ -807,6 +807,7 @@ body {
   background-color: #ffffff;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   font-family: "PT Sans";
   align-items: center;
   width: 220px;

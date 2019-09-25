@@ -1014,17 +1014,17 @@ body {
 
 .features__link {
   color: #ffffff;
-    font-size: 21px;
-    font-weight: 700;
-    line-height: 30px;
-    min-width: 240px;
-    box-shadow: 0 1px 0 #293449, inset 0 1px 0 #405069;
-    background-color: #32425c;
-    display: inline-flex;
-    align-items: center;
-    justify-content: flex-start;
-    text-decoration: none;
-    padding: 12px 22px 19px 22px;
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 30px;
+  min-width: 240px;
+  box-shadow: 0 1px 0 #293449, inset 0 1px 0 #405069;
+  background-color: #32425c;
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-start;
+  text-decoration: none;
+  padding: 12px 22px 19px 22px;
 }
 
 
@@ -1099,6 +1099,17 @@ body {
   text-decoration: none;
 }
 
+.about-wrapper {
+  margin-top: 79px;
+  margin-bottom: 86px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-company {
+  width: 519px;
+}
+
 .about-company__title {
   color: #000000;
   font-size: 30px;
@@ -1106,40 +1117,40 @@ body {
   line-height: 30px;
   text-transform: uppercase;
   margin: 0;
-  padding-left: 130px;
-  padding-bottom: 26px;
+  margin-bottom: 26px;
+  word-spacing: -3px;
 }
 
 .about-company__text {
   color: #000000;
   font-family: "PT Sans";
-  font-weight: 400;
-  line-height: 24px;
   font-size: 13px;
   font-weight: 400;
   line-height: 23px;
   margin: 0;
-  padding-left: 130px;
   font-kerning: none;
-  width: 594px;
   margin-bottom: 26px;
+  word-spacing: 1px;
 }
 
 .about-company__text:nth-of-type(2) {
-  width: 450px;
   margin-bottom: 0;
+  font-kerning: none;
+  word-spacing: 0px;
+  padding-right: 110px;
+  margin-bottom: 23px;
 }
 
 .delivery {
   list-style: none;
   padding: 0;
   margin: 0;
-  padding-left: 166px;
-  padding-top: 23px;
+  margin-left: 36px;
+  margin-bottom: 47px;
 }
 
 .delivery__item {
-  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .delivery__text {
@@ -1156,19 +1167,13 @@ body {
   font-weight: 400;
   line-height: 18px;
   text-transform: uppercase;
-  width: 220px;
-  height: 38px;
   background-color: #ee3643;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
   text-decoration: none;
-  margin-left: 130px;
-  margin-top: 16px;
+  padding: 12px 39px 10px 41px;
 }
 
 .contacts {
-  padding-left: 45px;
+  width: 301px;
 }
 
 .contacts__title {
@@ -1178,7 +1183,7 @@ body {
   line-height: 30px;
   text-transform: uppercase;
   margin: 0;
-  padding-bottom: 27px;
+  margin-bottom: 25px;
 }
 
 .contacts__text {
@@ -1188,7 +1193,8 @@ body {
   line-height: 24px;
   margin: 0;
   width: 200px;
-  padding-bottom: 30px;
+  margin-bottom: 32px;
+  word-spacing: -3px;
 }
 
 .contacts__link {
@@ -1198,16 +1204,10 @@ body {
   line-height: 18px;
   text-transform: uppercase;
   background-color: #ee3643;
-  display: inline-flex;
+  display: flex;
   padding: 10px 59px 10px 65px;
   margin-top: 36px;
   text-decoration: none;
-}
-
-.about-wrapper {
-  padding-top: 79px;
-  padding-bottom: 86px;
-  display: flex;
 }
 
 .footer__top {

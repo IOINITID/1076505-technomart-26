@@ -227,7 +227,7 @@ body {
 }
 
 .basket--active {
-  /* padding: 0 27px 0 48px; */
+  padding-right: 26px;
 }
 
 .basket:active {

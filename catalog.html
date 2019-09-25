@@ -10,87 +10,80 @@
 
 <body>
 
-  <header class="header">
+    <header class="header">
 
-    <div class="header__top-wrapper">
+        <div class="header__top-wrapper">
+          <div class="container">
+            <a class="logo" href="index.html">
+              <img class="logo__image" src="img/header-logo.svg" width="109" height="19" alt="Логотип Техномарт">
+            </a>
+            <form class="search" action="https://echo.htmlacademy.ru">
+              <input class="search__input" type="search" name="search" placeholder="Поиск:">
+              <button class="search__button" type="submit"></button>
+            </form>
+            <a class="bookmarks" href="#">Закладки: 0</a>
+            <a class="basket basket--active" href="#">Корзина: 10</a>
+            <a class="checkout" href="#">Оформить заказ</a>
+          </div>
+        </div>
 
-      <div class="header__top">
-        <a class="logo" href="#">
-          <img class="logo__image" src="img/header-logo.svg" width="109" height="19" alt="Логотип Техномарт">
-        </a>
-        <form class="search" action="https://echo.htmlacademy.ru">
-          <input class="search__input" type="search" name="search" placeholder="Поиск:">
-          <button class="search__button" type="submit"></button>
-        </form>
-        <a class="bookmarks" href="#">Закладки: 0</a>
-        <a class="basket basket--active" href="#">Корзина: 10</a>
-        <a class="checkout" href="#">Оформить заказ</a>
-      </div>
+        <div class="header__center">
+          <div class="container">
+            <h1 class="info">Интернет-магазин<br> строительных материалов<br> и инструментов для ремонта</h1>
+            <address class="address header__address">
+              <a class="address__link" href="tel:+78125550555">+7 (812) 555-05-55</a>
+              <p class="address__text">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
+            </address>
+            <ul class="account">
+                <li class="account__item">
+                  <a class="account__link" href="#">Равшан Джамшутович</a>
+                </li>
+                <li class="account__item">
+                  <a class="account__link" href="#">Выйти</a>
+                </li>
+              </ul>
+              <ul class="account__list">
+                <li class="account__item">
+                  <a class="account__link" href="#">Мои заказы</a>
+                </li>
+                <li class="account__item">
+                  <a class="account__link" href="#">Личный кабинет</a>
+                </li>
+              </ul>
+          </div>
+        </div>
 
-    </div>
+        <div class="header__bottom">
+          <div class="container">
+            <nav class="menu">
+              <ul class="menu__list">
+                <li class="menu__item">
+                  <a class="menu__link" href="index.html">Главная</a>
+                </li>
+                <li class="menu__item">
+                  <a class="menu__link" href="#">Компания</a>
+                </li>
+                <li class="menu__item">
+                  <a class="menu__link" href="#">Каталог</a>
+                </li>
+                <li class="menu__item">
+                  <a class="menu__link" href="#">Новости</a>
+                </li>
+                <li class="menu__item">
+                  <a class="menu__link" href="#">Спецпредложения</a>
+                </li>
+                <li class="menu__item">
+                  <a class="menu__link" href="#">Доставка</a>
+                </li>
+                <li class="menu__item">
+                  <a class="menu__link" href="#">Контакты</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
 
-    <div class="header__center">
-
-      <h1 class="info">Интернет-магазин<br> строительных материалов<br> и инструментов для ремонта</h1>
-
-      <address class="address header__address">
-
-        <a class="address__link" href="tel:+78125550555">+7 (812) 555-05-55</a>
-
-        <p class="address__text">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
-
-      </address>
-
-      <ul class="account">
-        <li class="account__item">
-          <a class="account__link" href="#">Равшан Джамшутович</a>
-        </li>
-        <li class="account__item">
-          <a class="account__link" href="#">Выйти</a>
-        </li>
-      </ul>
-      <ul class="account__list">
-        <li class="account__item">
-          <a class="account__link" href="#">Мои заказы</a>
-        </li>
-        <li class="account__item">
-          <a class="account__link" href="#">Личный кабинет</a>
-        </li>
-      </ul>
-
-    </div>
-
-    <div class="header__bottom">
-
-      <nav class="menu">
-        <ul class="menu__list">
-          <li class="menu__item">
-            <a class="menu__link" href="#">Главная</a>
-          </li>
-          <li class="menu__item">
-            <a class="menu__link" href="#">Компания</a>
-          </li>
-          <li class="menu__item">
-            <a class="menu__link" href="catalog.html">Каталог</a>
-          </li>
-          <li class="menu__item">
-            <a class="menu__link" href="#">Новости</a>
-          </li>
-          <li class="menu__item">
-            <a class="menu__link" href="#">Спецпредложения</a>
-          </li>
-          <li class="menu__item">
-            <a class="menu__link" href="#">Доставка</a>
-          </li>
-          <li class="menu__item">
-            <a class="menu__link" href="#">Контакты</a>
-          </li>
-        </ul>
-      </nav>
-
-    </div>
-
-  </header>
+      </header>
 
   <main class="main main--catalog">
 
@@ -479,31 +472,31 @@
 
       <div class="footer__top">
 
-        <div class="footer-top-wrapper">
+        <div class="container">
           <a class="footer__logo" href="#">
-            <img class="footer__image" src="img/footer-logo.svg" alt="Логотип Техномарт">
+            <img class="footer__image" src="img/footer-logo.svg" width="138" height="23" alt="Логотип Техномарт">
           </a>
 
           <ul class="menu footer__menu">
 
-            <li class="menu__item">
-              <a class="menu__link" href="#">Компания</a>
+            <li class="footer__menu-item">
+              <a class="footer__menu-link" href="#">Компания</a>
             </li>
 
-            <li class="menu__item">
-              <a class="menu__link" href="#">Новости</a>
+            <li class="footer__menu__item">
+              <a class="footer__menu-link" href="#">Новости</a>
             </li>
 
-            <li class="menu__item">
-              <a class="menu__link" href="catalog.html">Каталог</a>
+            <li class="footer__menu__item">
+              <a class="footer__menu-link" href="catalog.html">Каталог</a>
             </li>
 
-            <li class="menu__item">
-              <a class="menu__link" href="#">Доставка</a>
+            <li class="footer__menu__item">
+              <a class="footer__menu-link" href="#">Доставка</a>
             </li>
 
-            <li class="menu__item">
-              <a class="menu__link" href="#">Контакты</a>
+            <li class="footer__menu__item">
+              <a class="footer__menu-link" href="#">Контакты</a>
             </li>
 
           </ul>
@@ -513,7 +506,7 @@
 
       <div class="footer__bottom">
 
-        <div class="footer-bottom-wrapper">
+        <div class="container">
 
           <address class="address footer__address">
 
@@ -549,7 +542,7 @@
 
       <div class="copyright">
 
-        <div class="copyright-wrapper">
+        <div class="container">
 
           <p class="copyright__text">© 2010–2019 Компания «Техномарт»<br>Все права защищены</p>
 

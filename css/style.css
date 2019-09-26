@@ -397,7 +397,6 @@ body {
   margin: 0 auto;
   display: flex;
   align-items: center;
-  /* padding: 20px 55px 22px 52px; */
 }
 
 .menu__link {
@@ -1048,11 +1047,11 @@ body {
 }
 
 .features__description {
-  margin-left: 80px;
+  padding-left: 80px;
   width: 275px;
   display: flex;
   flex-direction: column;
-  margin-top: 67px;
+  padding-top: 67px;
   font-kerning: none;
 }
 
@@ -1081,7 +1080,7 @@ body {
   font-weight: 400;
   line-height: 24px;
   margin: 0;
-  padding-top: 25px;
+  margin-top: 25px;
   font-size: 13px;
   width: 275px;
 }
@@ -1222,9 +1221,6 @@ body {
   padding: 0;
   margin: 0;
   display: flex;
-  /* width: 547px;
-  justify-content: space-between;
-  align-items: center; */
   align-items: center;
   padding-left: 172px;
   padding-top: 31px;

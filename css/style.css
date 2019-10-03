@@ -60,11 +60,6 @@ body {
   color: #000000;
 }
 
-.wrapper {
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .container {
   width: 940px;
   margin-left: auto;
@@ -97,13 +92,13 @@ body {
   padding: 13px 56px 6px 55px;
 }
 
-.logo:hover,
+a[href].logo:hover,
 .logo:focus {
   box-shadow: 0 5px 0 #9a212a;
   background-color: #ca2c37;
 }
 
-.logo:active {
+a[href].logo:active {
   box-shadow: 0 5px 0 #8d1e26;
   background-color: #ba2732;
 }
@@ -128,7 +123,7 @@ body {
 .search__button {
   width: 17px;
   height: 17px;
-  background-image: url("../img/search-icon.svg");
+  /* background-image: url("../img/search-icon.svg"); */
   opacity: 0.3;
   background-color: #293449;
   border: none;
@@ -154,17 +149,17 @@ body {
   color: #000000;
 }
 
-.search__input:focus~.search__button {
+/* .search__input:focus~.search__button {
   background-image: url("../img/search-icon-focus.svg");
   background-color: #ffffff;
   opacity: 1;
-}
+} */
 
-.search__button:hover,
+/* .search__button:hover,
 .search__button:focus {
   opacity: 1;
   cursor: pointer;
-}
+} */
 
 .bookmarks {
   color: #ffffff;
@@ -735,6 +730,8 @@ body {
 
 .slider__item {
   position: relative;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .slider__item:nth-of-type(1) .slider__title {

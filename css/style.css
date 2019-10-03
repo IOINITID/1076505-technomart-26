@@ -14,13 +14,6 @@
 
 @font-face {
   font-family: "Cuprum";
-  font-weight: 700;
-  src: url("../fonts/cuprumbold.woff2") format("woff2"),
-    url("../fonts/cuprumbold.woff") format("woff");
-}
-
-@font-face {
-  font-family: "Cuprum";
   font-weight: 400;
   font-style: italic;
   src: url("../fonts/cuprumitalic.woff2") format("woff2"),
@@ -63,6 +56,8 @@ body {
   font-family: "Cuprum", "Arial", sans-serif;
   font-weight: 400;
   font-size: 14px;
+  line-height: normal;
+  color: #000000;
 }
 
 .wrapper {
@@ -296,6 +291,7 @@ body {
   color: #ee3643;
   font-size: 15px;
   font-style: italic;
+  font-weight: 700;
   line-height: 23px;
   padding-top: 3px;
   margin: 0;
@@ -1773,7 +1769,7 @@ body {
   border: 1px solid #ee3643;
 }
 
-.pagination__link-next {
+.pagination__link--next {
   border: 1px solid #e5e5e5;
   background-color: #ffffff;
   padding: 0 69px 0 69px;

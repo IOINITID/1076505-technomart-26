@@ -122,7 +122,7 @@ a[href].logo:active {
 
 .search__button {
   width: 17px;
-  height: 17px;
+  min-height: 17px;
   /* background-image: url("../img/search-icon.svg"); */
   /* opacity: 0.3; */
   background-color: #293449;
@@ -207,7 +207,7 @@ a[href].logo:active {
 .bookmarks::before {
   content: "";
   width: 14px;
-  height: 16px;
+  min-height: 16px;
   background-image: url("../img/bookmark-icon.svg");
   opacity: 0.3;
   position: absolute;
@@ -263,7 +263,7 @@ a[href].logo:active {
 .basket::before {
   content: "";
   width: 15px;
-  height: 15px;
+  min-height: 15px;
   background-image: url("../img/cart-icon.svg");
   opacity: 0.3;
   position: absolute;
@@ -346,7 +346,7 @@ a[href].logo:active {
 .address__link::before {
   content: "";
   width: 19px;
-  height: 19px;
+  min-height: 19px;
   background-image: url("../img/phone-icon.svg");
   position: absolute;
   top: 10px;
@@ -387,7 +387,7 @@ a[href].logo:active {
 .login__in svg {
   /* content: ""; */
   width: 20px;
-  height: 17px;
+  min-height: 17px;
   /* background-image: url("../img/login-icon.svg"); */
   position: absolute;
   top: 14px;
@@ -466,7 +466,7 @@ a[href].logo:active {
 .account__bottom .account__orders::before {
   content: "";
   width: 4px;
-  height: 5px;
+  min-height: 5px;
   background-color: #32425c;
   border-radius: 50%;
   position: absolute;
@@ -488,7 +488,7 @@ a[href].logo:active {
   background-repeat: no-repeat;
   background-size: contain;
   width: 20px;
-  height: 18px;
+  min-height: 18px;
   position: absolute;
   top: 13px;
   left: 13px;
@@ -642,7 +642,7 @@ a[href].logo:active {
 
 .product--materials svg {
   width: 44px;
-  height: 65px;
+  min-height: 65px;
   display: block;
   position: absolute;
   top: 31px;
@@ -661,7 +661,7 @@ a[href].logo:active {
 
 .product--instruments svg {
   width: 75px;
-  height: 61px;
+  min-height: 61px;
   position: absolute;
   top: 33px;
   right: 28px;
@@ -673,7 +673,7 @@ a[href].logo:active {
 
 .product--technics svg {
   width: 78px;
-  height: 62px;
+  min-height: 62px;
   position: absolute;
   top: 31px;
   right: 31px;
@@ -685,7 +685,7 @@ a[href].logo:active {
 
 .product--discounts svg {
   width: 59px;
-  height: 72px;
+  min-height: 72px;
   position: absolute;
   top: 26px;
   right: 45px;
@@ -697,7 +697,7 @@ a[href].logo:active {
 
 .product--delivery svg {
   width: 78px;
-  height: 63px;
+  min-height: 63px;
   position: absolute;
   top: 32px;
   right: 31px;
@@ -708,7 +708,7 @@ a[href].logo:active {
   padding: 0;
   margin: 0;
   width: 620px;
-  height: 266px;
+  min-height: 266px;
   display: flex;
   position: relative;
 }
@@ -881,11 +881,11 @@ a[href].logo:active {
 .item {
   border: 1px solid #eaeaea;
   background-color: #ffffff;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* justify-content: space-between; */
   font-family: "PT Sans", "Arial", sans-serif;
-  align-items: center;
+  /* align-items: center; */
   width: 220px;
   min-height: 318px;
   margin-bottom: 21px;
@@ -899,7 +899,7 @@ a[href].logo:active {
 
 .item__image-link {
   width: 218px;
-  height: 170px;
+  min-height: 170px;
 }
 
 .item__title-link {
@@ -949,7 +949,7 @@ a[href].logo:active {
 .item__price::before {
   content: "";
   width: 0;
-  height: 0;
+  min-height: 0;
   border-style: solid;
   border-width: 19px 0 19px 20px;
   border-color: transparent transparent transparent #ee3643;
@@ -962,8 +962,8 @@ a[href].logo:active {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 9px 32px 20px 31px;
-  min-height: 146px;
+  padding: 5px 32px 20px 31px;
+  min-height: 142px;
   justify-content: space-between;
 }
 
@@ -1019,7 +1019,7 @@ a[href].logo:active {
 .item__buy svg {
   content: "";
   width: 15px;
-  height: 15px;
+  min-height: 15px;
   opacity: 0.3;
   position: absolute;
   top: 11px;
@@ -1057,7 +1057,7 @@ a[href].logo:active {
   top: 0;
   right: 0;
   width: 60px;
-  height: 59px;
+  min-height: 59px;
 }
 
 .item__bookmarks {
@@ -1095,7 +1095,7 @@ a[href].logo:active {
 
 .manufacturer {
   width: 220px;
-  height: 145px;
+  min-height: 145px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1170,7 +1170,7 @@ a[href].logo:active {
   background-position: 100% 0;
   display: flex;
   width: 10px;
-  height: 279px;
+  min-height: 279px;
   position: absolute;
   top: -47px;
   right: 0;
@@ -1223,7 +1223,7 @@ a[href].logo:active {
   background-image: url("../img/delivery-image.png");
   display: flex;
   width: 468px;
-  height: 261px;
+  min-height: 261px;
   position: absolute;
   top: 92px;
   right: 1px;
@@ -1255,7 +1255,7 @@ a[href].logo:active {
   line-height: 18px;
   text-transform: uppercase;
   width: 195px;
-  height: 38px;
+  min-height: 38px;
   background-color: #ff5357;
   display: inline-flex;
   align-items: center;
@@ -1436,7 +1436,7 @@ a[href].logo:active {
   content: "";
   background-image: url("../img/breadcrumbs-arrow-icon.svg");
   width: 8px;
-  height: 12px;
+  min-height: 12px;
   position: absolute;
   top: 2px;
   right: -4px;
@@ -1520,7 +1520,7 @@ a[href].logo:active {
 
 .filter__cost {
   width: 220px;
-  height: 80px;
+  min-height: 80px;
   background-color: #f7f3ec;
   margin-bottom: 9px;
   display: flex;
@@ -1537,7 +1537,7 @@ a[href].logo:active {
   margin: 0;
   border: none;
   width: 20px;
-  height: 23px;
+  min-height: 23px;
   background-color: #f7f3ec;
   z-index: 1;
   cursor: pointer;
@@ -1551,7 +1551,7 @@ a[href].logo:active {
   margin: 0;
   border: none;
   width: 20px;
-  height: 23px;
+  min-height: 23px;
   background-color: #f7f3ec;
   z-index: 1;
   cursor: pointer;
@@ -1559,7 +1559,7 @@ a[href].logo:active {
 
 .filter__cost-line {
   width: 180px;
-  height: 2px;
+  min-height: 2px;
   background-color: #d7dcde;
   border: none;
   padding: 0;
@@ -1574,7 +1574,7 @@ a[href].logo:active {
   left: 0;
   background-color: #00ca74;
   width: 152px;
-  height: 2px;
+  min-height: 2px;
 }
 
 .filter__cost-wrapper {
@@ -1584,7 +1584,7 @@ a[href].logo:active {
 
 .filter__cost-label input {
   width: 95px;
-  height: 38px;
+  min-height: 38px;
   background-color: #f7f3ec;
   border: none;
   text-align: center;
@@ -1681,7 +1681,7 @@ a[href].logo:active {
 .filter__item-checkbox:checked~.filter-icon-checked {
   display: inline-block;
   width: 27px;
-  height: 23px;
+  min-height: 23px;
   position: absolute;
   top: 0;
   left: 0;
@@ -1879,7 +1879,7 @@ a[href].logo:active {
 
 .sort__item:nth-of-type(4) .sort__link {
   width: 0;
-  height: 0;
+  min-height: 0;
   border-style: solid;
   border-width: 0 5.5px 10px 5.5px;
   border-color: transparent transparent rgba(0, 0, 0, 0.3) transparent;
@@ -1893,7 +1893,7 @@ a[href].logo:active {
 
 .sort__item:nth-of-type(5) .sort__link {
   width: 0;
-  height: 0;
+  min-height: 0;
   border-style: solid;
   border-width: 10px 5.5px 0 5.5px;
   border-color: rgba(0, 0, 0, 0.3) transparent transparent transparent;
@@ -1907,7 +1907,7 @@ a[href].logo:active {
 
 .sort__item:nth-of-type(4) .sort__link--active {
   width: 0;
-  height: 0;
+  min-height: 0;
   border-style: solid;
   border-width: 0 5.5px 10px 5.5px;
   border-color: transparent transparent #ee3643 transparent;
@@ -1921,7 +1921,7 @@ a[href].logo:active {
 
 .sort__item:nth-of-type(5) .sort__link--active {
   width: 0;
-  height: 0;
+  min-height: 0;
   border-style: solid;
   border-width: 10px 5.5px 0 5.5px;
   border-color: #ee3643 transparent transparent transparent;
@@ -1967,7 +1967,7 @@ a[href].logo:active {
   font-weight: 400;
   line-height: 18px;
   width: 38px;
-  height: 38px;
+  min-height: 38px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -2185,7 +2185,7 @@ a[href].logo:active {
   align-items: center;
   justify-content: center;
   width: 42px;
-  height: 42px;
+  min-height: 42px;
   border-radius: 50%;
   background-color: #212a3a;
 }

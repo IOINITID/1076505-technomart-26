@@ -187,16 +187,16 @@
 
             </li>
 
-              <a href="#" class="slider__prev">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="22" height="40">
-                    <path fill="#FFF" d="M19.83-.035l2.089 2.099L4.13 19.947l17.847 17.939-2.09 2.099L-.048 19.947z"/>
-                  </svg>
-              </a>
-              <a href="#" class="slider__next">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="22" height="40">
-                    <path fill="#FFF" d="M2.098-.035L.009 2.064l17.789 17.883L-.048 37.886l2.089 2.099 19.935-20.038z"/>
-                  </svg>
-              </a>
+            <a href="#" class="slider__prev">
+              <svg xmlns="http://www.w3.org/2000/svg" width="22" height="40">
+                <path fill="#FFF" d="M19.83-.035l2.089 2.099L4.13 19.947l17.847 17.939-2.09 2.099L-.048 19.947z" />
+              </svg>
+            </a>
+            <a href="#" class="slider__next">
+              <svg xmlns="http://www.w3.org/2000/svg" width="22" height="40">
+                <path fill="#FFF" d="M2.098-.035L.009 2.064l17.789 17.883L-.048 37.886l2.089 2.099 19.935-20.038z" />
+              </svg>
+            </a>
 
           </ul>
 
@@ -571,45 +571,60 @@
 
   </footer>
 
-  <!-- <section class="write-us">
+  <section class="write-us">
 
-      <h2 class="visually-hidden">Напишите нам</h2>
+    <h2 class="visually-hidden">Напишите нам</h2>
 
-      <form action="https://echo.htmlacademy.ru" method="post">
+    <form action="https://echo.htmlacademy.ru" method="post">
 
-        <label>
-          <span>Ваше имя:</span>
-          <input type="text" name="name" placeholder="Имя Фамилия">
-        </label>
+          <header>
+              <div class="write-us__wrapper">
+                  <label class="write-us__name">
+                    <span>Ваше имя:</span>
+                    <input type="text" name="name" placeholder="Имя Фамилия">
+                  </label>
+                  <label class="write-us__email">
+                    <span>Ваш e-mail:</span>
+                    <input type="email" name="email" placeholder="email@example.com">
+                  </label>
+                </div>
 
-        <label>
-          <span>Ваш e-mail:</span>
-          <input type="email" name="email" placeholder="email@example.com">
-        </label>
+                <label class="write-us__text">
+                  <span>Текст письма:</span>
+                  <textarea name="message" placeholder="В свободной форме"></textarea>
+                  </label>
+          </header>
 
-        <label>
-          <span>Текст письма:</span>
-          <textarea name="message">В свободной форме</textarea>
-        </label>
+     <footer>
+        <button class="write-us__send" type="submit">Отправить</button>
+     </footer>
 
-        <button type="submit">Отправить</button>
+    </form>
 
-      </form>
+    <button class="modal__close" type="button" title="Кнопка закрыть">
+      <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21">
+        <path fill="#ee3643"
+          d="M13.273 10.5l7.422-7.422a1.003 1.003 0 0 0 0-1.414L19.336.305a1.003 1.003 0 0 0-1.414 0L10.5 7.727 3.078.305a1.003 1.003 0 0 0-1.414 0L.305 1.664a1.003 1.003 0 0 0 0 1.414L7.727 10.5.306 17.922a1.003 1.003 0 0 0 0 1.414l1.359 1.359a1.003 1.003 0 0 0 1.414 0l7.422-7.422 7.422 7.422a1.003 1.003 0 0 0 1.414 0l1.359-1.359a1.003 1.003 0 0 0 0-1.414z" />
+      </svg>
+      </button>
 
-      <button class="write-us__button" type="button">Закрыть</button>
+  </section>
 
-    </section> -->
+  <div class="map-popup">
 
-  <!-- <div class="map-popup">
-
-      <img class="map-popup__image" src="img/map-image.jpg" width="940" height="446"
+     <div class="map-wrapper">
+        <img class="map-popup__image" src="img/map-image.jpg" width="940" height="446"
         alt="г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8">
+     </div>
 
-      <button type="button">Закрыть</button>
+        <button class="modal__close" type="button" title="Кнопка закрыть">
+            <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21">
+              <path fill="#ee3643"
+                d="M13.273 10.5l7.422-7.422a1.003 1.003 0 0 0 0-1.414L19.336.305a1.003 1.003 0 0 0-1.414 0L10.5 7.727 3.078.305a1.003 1.003 0 0 0-1.414 0L.305 1.664a1.003 1.003 0 0 0 0 1.414L7.727 10.5.306 17.922a1.003 1.003 0 0 0 0 1.414l1.359 1.359a1.003 1.003 0 0 0 1.414 0l7.422-7.422 7.422 7.422a1.003 1.003 0 0 0 1.414 0l1.359-1.359a1.003 1.003 0 0 0 0-1.414z" />
+            </svg>
+            </button>
 
-    </div> -->
-
-  <!-- </div> -->
+    </div>
 
   <script src="js/script.js"></script>
 </body>

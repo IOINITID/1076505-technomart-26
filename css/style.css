@@ -1520,13 +1520,14 @@ a[href].logo:active {
 
 .filter__cost {
   width: 220px;
-  min-height: 80px;
+  /* min-height: 80px; */
   background-color: #f7f3ec;
   margin-bottom: 9px;
   display: flex;
   align-items: center;
   justify-content: center;
   position: relative;
+  padding: 39px 0;
 }
 
 .filter__cost-button-one {

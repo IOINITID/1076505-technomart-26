@@ -777,6 +777,7 @@ a[href].logo:active {
 
 .slider__one {
   background-image: url("../img/slider-one.jpg");
+  min-height: 266px;
 }
 
 .slider__two {
@@ -1968,13 +1969,14 @@ a[href].logo:active {
   font-weight: 400;
   line-height: 18px;
   width: 38px;
-  min-height: 38px;
+  /* min-height: 38px; */
   display: flex;
   align-items: center;
   justify-content: center;
   text-decoration: none;
   text-transform: uppercase;
   margin-right: 10px;
+  padding: 9px 0;
 }
 
 .pagination__link:hover,
@@ -1989,7 +1991,7 @@ a[href].logo:active {
 .pagination__link--next {
   border: 1px solid #e5e5e5;
   background-color: #ffffff;
-  padding: 0 10px;
+  padding: 10px;
   margin: 0;
   width: 140px;
 }

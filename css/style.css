@@ -1153,9 +1153,9 @@ a[href].logo:active {
   margin: 0;
   display: flex;
   flex-direction: column;
-  margin-top: 71px;
+  margin-top: 70px;
   position: relative;
-  /* background-color: #32425c; */
+  background-color: #32425c;
 }
 
 .features::before {
@@ -1178,19 +1178,17 @@ a[href].logo:active {
   min-width: 240px;
   box-shadow: 0 1px 0 #293449, inset 0 1px 0 #405069;
   background-color: #32425c;
-  display: inline-flex;
-  align-items: center;
-  justify-content: flex-start;
   text-decoration: none;
-  padding: 12px 22px 19px 22px;
+  padding: 13px 22px 18px 22px;
+  display: block;
 }
 
 .features__item:nth-of-type(2) .features__link {
-  padding: 13px 22px 18px 22px;
+  padding: 14px 22px 17px 22px;
 }
 
 .features__item:nth-of-type(3) .features__link {
-  padding: 14px 22px 17px 22px;
+  padding: 15px 22px 16px 22px;
 }
 
 .features__link--active {

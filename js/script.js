@@ -109,9 +109,13 @@ if (creditLink !== null) {
 document.querySelector('.slider__next').addEventListener('click', function (evt) {
   evt.preventDefault();
   document.querySelector('.slider__two').classList.add('slider-next');
+  document.querySelector('.slider__next').classList.add('slider__last');
+  document.querySelector('.slider__prev').classList.remove('slider__last');
 });
 
 document.querySelector('.slider__prev').addEventListener('click', function (evt) {
   evt.preventDefault();
   document.querySelector('.slider__two').classList.remove('slider-next');
+  document.querySelector('.slider__prev').classList.add('slider__last');
+  document.querySelector('.slider__next').classList.remove('slider__last');
 });

@@ -43,14 +43,14 @@ if (closeModalInfo) {
     }
   });
 }
-if (cartButtons) {
-  cartButtons.forEach.call(cartButtons, function (element) {
-    element.addEventListener('click', function (evt) {
+document.addEventListener("DOMContentLoaded", function () {
+  for (var i = 0; i < cartButtons.length; i++) {
+    cartButtons[i].addEventListener("click", function (evt) {
       evt.preventDefault();
       cart.classList.remove('hide');
     });
-  });
-}
+  }
+});
 if (closeModalCart) {
   closeModalCart.addEventListener('click', function (evt) {
     evt.preventDefault();

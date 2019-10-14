@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body>
+<body class="body">
   <header class="header">
     <div class="header__top-wrapper">
       <div class="container">
@@ -325,33 +325,33 @@
         <div class="features-wrapper">
           <ul class="features">
             <li class="features__item">
-              <a class="features__link features__link--active" href="#">Доставка</a>
+              <a class="features__link features__link-deliver features__link--active" href="#">Доставка</a>
             </li>
             <li class="features__item">
-              <a class="features__link" href="#">Гарантия</a>
+              <a class="features__link features__link-guarantee" href="#">Гарантия</a>
             </li>
             <li class="features__item">
-              <a class="features__link" href="#">Кредит</a>
+              <a class="features__link features__link-credit" href="#">Кредит</a>
             </li>
           </ul>
-          <div class="features__description">
+          <div class="features__description features__deliver">
             <span class="features__title">Доставка</span>
             <p class="features__text">Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно
               бесплатно!
               Ведь мы неплохо заработаем,<br> поднимая его на ваш этаж!</p>
           </div>
-          <!-- <div class="features__description">
+          <div class="features__description features__guarantee hide">
             <span class="features__title">Гарантия</span>
-            <p class="features__text">Если купленный у нас товар поломается или заискрит, а также в случае пожара,
+            <p class="features__text">Если купленный у нас товар поломается или заискрит,<br> а также в случае пожара,
               спровоцированного его возгоранием, вы всегда можете быть уверены в нашей гарантии. Мы обменяем сгоревший
-              товар на новый. Дом уж восстановите как-нибудь сами.</p>
-          </div> -->
-          <!-- <div class="features__description">
+              товар на новый.<br> Дом уж восстановите как-нибудь сами.</p>
+          </div>
+          <div class="features__description features__credit hide">
             <span class="features__title">Кредит</span>
             <p class="features__text">Залезть в долговую яму стало проще! Кредитные консультанты придут вам на помощь.
             </p>
             <a class="features__link-order" href="#">Отправить заявку</a>
-          </div> -->
+          </div>
         </div>
       </div>
     </section>
@@ -374,7 +374,7 @@
             <p class="delivery__text">ЖелДорЭкспедиция</p>
           </li>
         </ul>
-        <a class="about-company__link" href="#">Подробнее о компании</a>
+        <a class="about-company__link" href="about.html">Подробнее о компании</a>
       </section>
       <section class="contacts">
         <h2 class="contacts__title">Контакты</h2>
@@ -480,7 +480,7 @@
       </div>
     </div>
   </footer>
-  <section class="write-us">
+  <section class="write-us hide">
     <h2 class="visually-hidden">Напишите нам</h2>
     <form action="https://echo.htmlacademy.ru" method="post">
       <header>
@@ -503,19 +503,39 @@
         <button class="write-us__send" type="submit">Отправить</button>
       </footer>
     </form>
-    <button class="modal__close" type="button" title="Кнопка закрыть">
+    <button class="modal__close close-button-info" type="button" title="Кнопка закрыть">
       <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21">
         <path fill="#ee3643"
           d="M13.273 10.5l7.422-7.422a1.003 1.003 0 0 0 0-1.414L19.336.305a1.003 1.003 0 0 0-1.414 0L10.5 7.727 3.078.305a1.003 1.003 0 0 0-1.414 0L.305 1.664a1.003 1.003 0 0 0 0 1.414L7.727 10.5.306 17.922a1.003 1.003 0 0 0 0 1.414l1.359 1.359a1.003 1.003 0 0 0 1.414 0l7.422-7.422 7.422 7.422a1.003 1.003 0 0 0 1.414 0l1.359-1.359a1.003 1.003 0 0 0 0-1.414z" />
       </svg>
     </button>
   </section>
-  <div class="map-popup">
+  <div class="cart-popup hide">
+    <header class="cart-popup__header">
+      <svg xmlns="http://www.w3.org/2000/svg" width="66" height="66">
+        <circle cx="33" cy="33" r="33" fill="#63A63E" />
+        <path fill="#FFF"
+          d="M49.641 21.066a1.003 1.003 0 0 0-1.414 0L29.788 39.504a1.003 1.003 0 0 1-1.414 0l-8.14-8.139a1.003 1.003 0 0 0-1.414 0L15.285 34.9a1.003 1.003 0 0 0 0 1.414l13.089 13.09a1.003 1.003 0 0 0 1.414 0l3.536-3.536 1.414-1.414 18.438-18.438a1.003 1.003 0 0 0 0-1.414l-3.535-3.536z" />
+      </svg>
+      <p>Товар добавлен в корзину!</p>
+    </header>
+    <footer>
+      <a class="checkout-link" href="#">Оформить заказ</a>
+      <a class="shoping-link" href="#">Продолжить покупки</a>
+    </footer>
+    <button class="modal__close close-button-cart" type="button" title="Кнопка закрыть">
+      <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21">
+        <path fill="#ee3643"
+          d="M13.273 10.5l7.422-7.422a1.003 1.003 0 0 0 0-1.414L19.336.305a1.003 1.003 0 0 0-1.414 0L10.5 7.727 3.078.305a1.003 1.003 0 0 0-1.414 0L.305 1.664a1.003 1.003 0 0 0 0 1.414L7.727 10.5.306 17.922a1.003 1.003 0 0 0 0 1.414l1.359 1.359a1.003 1.003 0 0 0 1.414 0l7.422-7.422 7.422 7.422a1.003 1.003 0 0 0 1.414 0l1.359-1.359a1.003 1.003 0 0 0 0-1.414z" />
+      </svg>
+    </button>
+  </div>
+  <div class="map-popup hide">
     <div class="map-wrapper">
       <img class="map-popup__image" src="img/map-image.jpg" width="940" height="446"
         alt="г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8">
     </div>
-    <button class="modal__close" type="button" title="Кнопка закрыть">
+    <button class="modal__close close-button-map" type="button" title="Кнопка закрыть">
       <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21">
         <path fill="#ee3643"
           d="M13.273 10.5l7.422-7.422a1.003 1.003 0 0 0 0-1.414L19.336.305a1.003 1.003 0 0 0-1.414 0L10.5 7.727 3.078.305a1.003 1.003 0 0 0-1.414 0L.305 1.664a1.003 1.003 0 0 0 0 1.414L7.727 10.5.306 17.922a1.003 1.003 0 0 0 0 1.414l1.359 1.359a1.003 1.003 0 0 0 1.414 0l7.422-7.422 7.422 7.422a1.003 1.003 0 0 0 1.414 0l1.359-1.359a1.003 1.003 0 0 0 0-1.414z" />

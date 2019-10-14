@@ -248,10 +248,6 @@ a[href].logo:active {
   background-color: #161d29;
 }
 
-.basket:active::before {
-  opacity: 0.5;
-}
-
 .basket svg {
   width: 15px;
   min-height: 15px;
@@ -269,6 +265,10 @@ a[href].logo:active {
 .basket:hover svg,
 .basket:focus svg {
   opacity: 1;
+}
+
+.basket:active svg {
+  opacity: 0.5;
 }
 
 .checkout {

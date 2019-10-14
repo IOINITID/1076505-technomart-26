@@ -9,9 +9,7 @@
 </head>
 
 <body>
-
   <header class="header">
-
     <div class="header__top-wrapper">
       <div class="container">
         <a class="logo" href="index.html">
@@ -19,7 +17,6 @@
         </a>
         <form class="search" action="https://echo.htmlacademy.ru" method="post">
           <input class="search__input" type="search" name="search" placeholder="Поиск:">
-          <!-- <button class="search__button" type="submit" title="Кнопка найти"></button> -->
           <button class="search__button" type="submit" title="Кнопка найти">
             <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17">
               <path fill="#fff"
@@ -32,7 +29,6 @@
         <a class="checkout" href="#">Оформить заказ</a>
       </div>
     </div>
-
     <div class="header__center">
       <div class="container">
         <h1 class="info">Интернет-магазин строительных материалов и инструментов для ремонта</h1>
@@ -43,11 +39,12 @@
         <div class="account">
           <ul class="account__list account__top">
             <li class="account__item account__name">
-              <a class="account__link" href="#">Равшан Джамшутович</a>
-              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="18">
-                <path fill="#c5c5c5"
-                  d="M17.881 14.166c-2.144-.735-4.256-1.666-5.207-2.39-.657-.501-.77-1.618-.517-2.415 1.118-.903 1.864-2.477 1.864-4.278C14.021 2.276 12.221 0 10 0S5.979 2.276 5.979 5.083c0 1.801.746 3.374 1.863 4.277.253.798.141 1.915-.517 2.416-.95.724-3.063 1.654-5.207 2.39S0 18 0 18h20s.025-3.099-2.119-3.834z" />
-              </svg>
+              <a class="account__link" href="#">Равшан Джамшутович
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="18">
+                  <path fill="#c5c5c5"
+                    d="M17.881 14.166c-2.144-.735-4.256-1.666-5.207-2.39-.657-.501-.77-1.618-.517-2.415 1.118-.903 1.864-2.477 1.864-4.278C14.021 2.276 12.221 0 10 0S5.979 2.276 5.979 5.083c0 1.801.746 3.374 1.863 4.277.253.798.141 1.915-.517 2.416-.95.724-3.063 1.654-5.207 2.39S0 18 0 18h20s.025-3.099-2.119-3.834z" />
+                </svg>
+              </a>
             </li>
             <li class="account__item account__logout">
               <a class="account__link" href="#">
@@ -72,7 +69,6 @@
         </div>
       </div>
     </div>
-
     <div class="header__bottom">
       <div class="container">
         <nav class="menu">
@@ -102,13 +98,9 @@
         </nav>
       </div>
     </div>
-
   </header>
-
   <main class="main main--catalog">
-
     <div class="container">
-
       <div class="breadcrumbs">
         <ul class="breadcrumbs__list">
           <li class="breadcrumbs__item">
@@ -117,23 +109,21 @@
             </a>
           </li>
           <li class="breadcrumbs__item">
-            <a class="breadcrumbs__link" href="#">Каталог
-            </a>
+            <a class="breadcrumbs__link" href="#">Каталог</a>
           </li>
           <li class="breadcrumbs__item">
             <a class="breadcrumbs__link" href="#">Инструмент</a>
           </li>
-          <li class="breadcrumbs__item"><a class="breadcrumbs__link">Перфораторы</a></li>
+          <li class="breadcrumbs__item">
+            <a class="breadcrumbs__link">Перфораторы</a>
+          </li>
         </ul>
       </div>
-
       <h2 class="main__title">Перфораторы</h2>
-
       <div class="filter-wrapper">
         <section class="filter">
           <h2 class="filter__title">Фильтр:</h2>
           <form action="https://echo.htmlacademy.ru" method="post">
-
             <fieldset class="filter-fieldset fieldset-cost">
               <legend class="filter__heading">Цена:</legend>
               <div class="filter__cost">
@@ -157,7 +147,6 @@
                   </svg>
                 </button>
               </div>
-
               <div class="filter__cost-wrapper">
                 <label class="filter__cost-label">
                   <input type="number" name="cost-from" placeholder="0">
@@ -166,9 +155,7 @@
                   <input type="number" name="cost-to" placeholder="30000">
                 </label>
               </div>
-
             </fieldset>
-
             <fieldset class="filter-fieldset fieldset-manufacturer">
               <legend class="filter__heading">Производители:</legend>
               <label class="filter__item">
@@ -242,7 +229,6 @@
                 <span class="filter__item-title">Hitachi</span>
               </label>
             </fieldset>
-
             <fieldset class="filter-fieldset fieldset-suply">
               <legend class="filter__heading">Питание:</legend>
               <label class="filter__item">
@@ -272,17 +258,12 @@
                 <span class="filter__item-title">Сетевые</span>
               </label>
             </fieldset>
-
             <button class="filter__button" type="submit">Показать</button>
-
           </form>
         </section>
-
         <section class="goods">
-
           <div class="goods-sort">
             <h2 class="sort">Сортировка:</h2>
-
             <ul class="sort__list">
               <li class="sort__item">
                 <a class="sort__link sort__link--active" href="#">По цене</a>
@@ -301,9 +282,7 @@
               </li>
             </ul>
           </div>
-
           <ul class="items goods__items">
-
             <li class="item-goods-wrapper">
               <article class="item">
                 <div class="item__order-buttons">
@@ -329,7 +308,6 @@
                 </div>
               </article>
             </li>
-
             <li class="item-goods-wrapper">
               <article class="item">
                 <div class="item__order-buttons">
@@ -355,7 +333,6 @@
                 </div>
               </article>
             </li>
-
             <li class="item-goods-wrapper">
               <article class="item item--new">
                 <div class="item__order-buttons">
@@ -381,7 +358,6 @@
                 </div>
               </article>
             </li>
-
             <li class="item-goods-wrapper">
               <article class="item">
                 <div class="item__order-buttons">
@@ -407,7 +383,6 @@
                 </div>
               </article>
             </li>
-
             <li class="item-goods-wrapper">
               <article class="item item--new">
                 <div class="item__order-buttons">
@@ -433,7 +408,6 @@
                 </div>
               </article>
             </li>
-
             <li class="item-goods-wrapper">
               <article class="item">
                 <div class="item__order-buttons">
@@ -459,7 +433,6 @@
                 </div>
               </article>
             </li>
-
             <li class="item-goods-wrapper">
               <article class="item item--new">
                 <div class="item__order-buttons">
@@ -485,7 +458,6 @@
                 </div>
               </article>
             </li>
-
             <li class="item-goods-wrapper">
               <article class="item">
                 <div class="item__order-buttons">
@@ -511,7 +483,6 @@
                 </div>
               </article>
             </li>
-
             <li class="item-goods-wrapper">
               <article class="item">
                 <div class="item__order-buttons">
@@ -537,35 +508,24 @@
                 </div>
               </article>
             </li>
-
           </ul>
-
           <ul class="pagination">
-
             <li class="pagintaion__item">
               <a class="pagination__link pagination__link--active">1</a>
             </li>
-
             <li class="pagintaion__item">
               <a class="pagination__link" href="#">2</a>
             </li>
-
             <li class="pagintaion__item">
               <a class="pagination__link" href="#">3</a>
             </li>
-
             <li class="pagintaion__item">
               <a class="pagination__link pagination__link--next" href="#">Следующая</a>
             </li>
-
           </ul>
-
         </section>
-
       </div>
-
     </div>
-
     <article class="about-goods">
       <div class="container">
         <h3 class="about-goods__title">Пара слов о перфораторах</h3>
@@ -578,89 +538,58 @@
           совмещены отбойный молоток и ударная дрель.</p>
       </div>
     </article>
-
   </main>
-
   <footer class="footer">
-
     <div class="footer__top">
-
       <div class="container">
         <a class="footer__logo" href="index.html">
           <img class="footer__image" src="img/footer-logo.svg" width="138" height="23" alt="Логотип Техномарт">
         </a>
-
         <ul class="menu footer__menu">
-
           <li class="footer__menu-item">
             <a class="footer__menu-link" href="#">Компания</a>
           </li>
-
           <li class="footer__menu__item">
             <a class="footer__menu-link" href="#">Новости</a>
           </li>
-
           <li class="footer__menu__item">
             <a class="footer__menu-link" href="catalog.html">Каталог</a>
           </li>
-
           <li class="footer__menu__item">
             <a class="footer__menu-link" href="#">Доставка</a>
           </li>
-
           <li class="footer__menu__item">
             <a class="footer__menu-link" href="#">Контакты</a>
           </li>
-
         </ul>
       </div>
-
     </div>
-
     <div class="footer__bottom">
-
       <div class="container">
-
         <address class="address footer__address">
-
           <p class="footer__address-text">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
-
           <a class="footer__address-link" href="+78125550555">+7 (812) 555-05-55</a>
-
         </address>
-
         <ul class="products footer__products">
-
           <li class="footer__products-item">
             <a class="footer__products-link" href="#">Материалы</a>
           </li>
-
           <li class="footer__products-item">
             <a class="footer__products-link" href="#">Техника</a>
           </li>
-
           <li class="footer__products-item">
             <a class="footer__products-link" href="#">Инструмент</a>
           </li>
-
           <li class="footer__products-item">
             <a class="footer__products-link" href="#">Спецпредложения</a>
           </li>
-
         </ul>
-
       </div>
-
     </div>
-
     <div class="copyright">
-
       <div class="container">
-
         <p class="copyright__text">© 2010–2019 Компания «Техномарт»<br>Все права защищены</p>
-
         <ul class="copyright__socials">
-
           <li class="copyright__socials-item">
             <a class="copyright__socials-link" href="#">
               <svg xmlns="http://www.w3.org/2000/svg" width="26" height="15">
@@ -669,7 +598,6 @@
               </svg>
             </a>
           </li>
-
           <li class="copyright__socials-item">
             <a class="copyright__socials-link" href="#">
               <svg xmlns="http://www.w3.org/2000/svg" width="12" height="22">
@@ -677,7 +605,6 @@
               </svg>
             </a>
           </li>
-
           <li class="copyright__socials-item">
             <a class="copyright__socials-link" href="#">
               <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21">
@@ -686,9 +613,7 @@
               </svg>
             </a>
           </li>
-
         </ul>
-
         <address class="footer-address">
           <ul class="footer-address__list">
             <li class="footer-address__item">
@@ -701,13 +626,9 @@
             </li>
           </ul>
         </address>
-
       </div>
-
     </div>
-
   </footer>
-
   <section class="write-us">
     <h2 class="visually-hidden">Напишите нам</h2>
     <form action="https://echo.htmlacademy.ru" method="post">
@@ -738,7 +659,6 @@
       </svg>
     </button>
   </section>
-
   <div class="cart-popup">
     <header class="cart-popup__header">
       <svg xmlns="http://www.w3.org/2000/svg" width="66" height="66">
@@ -758,7 +678,6 @@
           d="M13.273 10.5l7.422-7.422a1.003 1.003 0 0 0 0-1.414L19.336.305a1.003 1.003 0 0 0-1.414 0L10.5 7.727 3.078.305a1.003 1.003 0 0 0-1.414 0L.305 1.664a1.003 1.003 0 0 0 0 1.414L7.727 10.5.306 17.922a1.003 1.003 0 0 0 0 1.414l1.359 1.359a1.003 1.003 0 0 0 1.414 0l7.422-7.422 7.422 7.422a1.003 1.003 0 0 0 1.414 0l1.359-1.359a1.003 1.003 0 0 0 0-1.414z" />
       </svg>
   </div>
-
   <script src="js/script.js"></script>
 </body>
 

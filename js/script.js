@@ -5,17 +5,17 @@ var closeModalMap = document.querySelector('.close-button-map');
 var writeUsButton = document.querySelector('.contacts__link');
 var writeUsPopup = document.querySelector('.write-us');
 var closeModalInfo = document.querySelector('.close-button-info');
-var cartButton = document.querySelector('.item__buy');
+var cartButtons = document.querySelectorAll('.item__buy');
 var cart = document.querySelector('.cart-popup');
 var closeModalCart = document.querySelector('.close-button-cart');
 
-if (mapButton !== null) {
+if (mapButton) {
   mapButton.addEventListener('click', function (evt) {
     evt.preventDefault();
     map.classList.remove('hide');
   });
 }
-if (closeModalMap !== null) {
+if (closeModalMap) {
   closeModalMap.addEventListener('click', function (evt) {
     evt.preventDefault();
     map.classList.add('hide');
@@ -26,13 +26,13 @@ if (closeModalMap !== null) {
     }
   });
 }
-if (writeUsButton !== null) {
+if (writeUsButton) {
   writeUsButton.addEventListener('click', function (evt) {
     evt.preventDefault();
     writeUsPopup.classList.remove('hide');
   });
 }
-if (closeModalInfo !== null) {
+if (closeModalInfo) {
   closeModalInfo.addEventListener('click', function (evt) {
     evt.preventDefault();
     writeUsPopup.classList.add('hide');
@@ -43,13 +43,15 @@ if (closeModalInfo !== null) {
     }
   });
 }
-if (cartButton !== null) {
-  cartButton.addEventListener('click', function (evt) {
-    evt.preventDefault();
-    cart.classList.remove('hide');
+if (cartButtons) {
+  cartButtons.forEach.call(cartButtons, function (element) {
+    element.addEventListener('click', function (evt) {
+      evt.preventDefault();
+      cart.classList.remove('hide');
+    });
   });
 }
-if (closeModalCart !== null) {
+if (closeModalCart) {
   closeModalCart.addEventListener('click', function (evt) {
     evt.preventDefault();
     cart.classList.add('hide');

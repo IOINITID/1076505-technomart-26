@@ -1794,24 +1794,7 @@ a[href].logo:active {
 
 .filter__item-title {
   position: absolute;
-  margin-left: 11px;
-}
-
-.filter-icon-checked {
-  display: none;
-}
-
-.filter__item-checkbox:checked~.filter-icon-checked {
-  display: inline-block;
-  width: 27px;
-  min-height: 23px;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-.filter__item-checkbox:checked~.filter-icon {
-  opacity: 0;
+  margin-left: 7px;
 }
 
 .fieldset-suply {
@@ -1835,70 +1818,6 @@ a[href].logo:active {
   border-top: 1px solid #e5e5e5;
   width: 100%;
   padding-top: 17px;
-}
-
-.filter__item-radio {
-  display: none;
-}
-
-.filter-icon-checked {
-  display: none;
-}
-
-.filter__item-radio:checked~.filter-icon-checked {
-  display: inline-block;
-}
-
-.filter__item-radio:checked~.filter-icon {
-  display: none;
-}
-
-.filter-icon:hover path {
-  fill: #b5b5b5;
-}
-
-.filter__item-checkbox:disabled~.filter-icon-checked {
-  fill: #c5c5c5;
-  opacity: 0.3;
-  cursor: default;
-}
-
-.filter__item-checkbox:disabled~.filter-icon {
-  fill: #c5c5c5;
-  opacity: 0.3;
-  cursor: default;
-}
-
-.filter__item-checkbox:disabled~span {
-  fill: #c5c5c5;
-  opacity: 0.3;
-  cursor: default;
-}
-
-.filter-icon-checked:hover path {
-  fill: #b5b5b5;
-}
-
-.filter__item-radio:disabled~.filter-icon-checked {
-  fill: #c5c5c5;
-  opacity: 0.3;
-  cursor: default;
-}
-
-.filter__item-radio:disabled~.filter-icon {
-  fill: #c5c5c5;
-  opacity: 0.3;
-  cursor: default;
-}
-
-.filter__item-radio:disabled~span {
-  fill: #c5c5c5;
-  opacity: 0.3;
-  cursor: default;
-}
-
-.filter-icon-checked:hover circle {
-  fill: #b5b5b5;
 }
 
 .fieldset-suply .filter__item-title {
@@ -1928,6 +1847,67 @@ a[href].logo:active {
 .filter__button:active {
   border: 1px solid #ee3643;
   color: #000000;
+}
+
+.filter-icon-checked .filter-icon--none {
+  display: block;
+}
+
+.filter-icon-checked .filter-icon--checked {
+  display: none;
+}
+
+.filter__item-checkbox:checked~.filter-icon-checked .filter-icon--none {
+  display: none;
+}
+
+.filter__item-checkbox:checked~.filter-icon-checked .filter-icon--checked {
+  display: block;
+}
+
+.filter__item-checkbox:disabled~.filter-icon-checked {
+  fill: #c5c5c5;
+  opacity: 0.3;
+  cursor: default;
+  pointer-events: none;
+}
+
+.filter__item-checkbox:disabled~span {
+  fill: #c5c5c5;
+  opacity: 0.3;
+  cursor: default;
+  pointer-events: none;
+}
+
+.filter-icon-checked:hover path,
+.filter-icon-checked:hover circle {
+  fill: #b5b5b5;
+}
+
+.filter__item-radio {
+  display: none;
+}
+
+.filter__item-radio~.filter-icon-checked .filter-icon--checked {
+  display: none;
+}
+
+.filter__item-radio:checked~.filter-icon-checked .filter-icon--checked {
+  display: block;
+}
+
+.filter__item-radio:disabled~.filter-icon-checked {
+  fill: #c5c5c5;
+  opacity: 0.3;
+  cursor: default;
+  pointer-events: none;
+}
+
+.filter__item-radio:disabled~span {
+  fill: #c5c5c5;
+  opacity: 0.3;
+  cursor: default;
+  pointer-events: none;
 }
 
 .goods {
@@ -2397,6 +2377,7 @@ a[href].logo:active {
   width: 21px;
   padding: 0;
   cursor: pointer;
+  outline: none;
 }
 
 .modal__close:hover path {

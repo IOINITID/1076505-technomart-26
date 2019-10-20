@@ -18,7 +18,7 @@
               d="M.421.556h9.694v1.75H6.332v15.75H4.204V2.305H.421zm13.827 15.75h5.911v1.75H12.12V.555h8.04v1.75h-5.912v5.75h5.202v1.75h-5.202zM29.562.555h2.128l-3.192 8.5 3.547 9h-2.128l-2.956-7.5-2.955 7.5h-2.128l3.547-9-3.192-8.5h2.128l2.6 7zm13.768 0v17.5h-2.128v-8h-4.965v8h-2.128V.555h2.128v7.75h4.965V.556zm7.684-.25c.804 0 1.517.142 2.14.425.623.284 1.155.767 1.596 1.45.441.684.776 1.605 1.005 2.763.228 1.158.343 2.612.343 4.362s-.115 3.204-.343 4.362c-.229 1.159-.564 2.08-1.005 2.762-.441.684-.973 1.167-1.596 1.45-.623.283-1.336.425-2.14.425-.803 0-1.517-.142-2.14-.425-.622-.283-1.154-.766-1.595-1.45-.442-.683-.777-1.603-1.005-2.762-.229-1.158-.343-2.612-.343-4.362s.114-3.204.343-4.362c.228-1.158.563-2.079 1.005-2.763.44-.683.973-1.166 1.596-1.45.622-.283 1.336-.424 2.14-.424zm0 16.5c.379 0 .749-.109 1.112-.326.362-.216.677-.608.946-1.175.267-.566.484-1.333.65-2.3.165-.966.248-2.2.248-3.7s-.083-2.732-.248-3.699c-.166-.966-.383-1.733-.65-2.3-.269-.566-.584-.958-.946-1.175a2.146 2.146 0 0 0-1.112-.324c-.378 0-.748.108-1.11.324-.364.217-.679.609-.947 1.175-.268.567-.484 1.334-.65 2.3-.165.967-.248 2.2-.248 3.7s.083 2.733.248 3.7c.166.966.382 1.733.65 2.3.268.566.583.958.946 1.174a2.14 2.14 0 0 0 1.111.325zm13.627-1l-3.429-10.75h-.118l-.71 13h-2.127l.945-17.5h2.601l3.854 12h.095l3.854-12h2.6l.947 17.5h-2.128l-.71-13h-.118l-3.428 10.75zm13.652-2.25l-1.064 4.5H75.1l4.02-17.5h3.073l4.02 17.5h-2.129l-1.064-4.5zm2.411-10.5h-.094l-1.963 8.75h4.02zm11.401 8.125c.536 0 .997-.07 1.384-.213.386-.141.705-.387.957-.737s.438-.825.556-1.425c.118-.6.177-1.35.177-2.25 0-.9-.059-1.65-.177-2.25-.118-.6-.304-1.075-.556-1.425a2.023 2.023 0 0 0-.957-.737c-.387-.142-.848-.213-1.384-.213H90.45v9.25zm-1.655 6.874h-2.128V.806a10.63 10.63 0 0 1 1.81-.387 16.116 16.116 0 0 1 1.973-.112c.946 0 1.75.104 2.412.312.662.209 1.198.554 1.608 1.037.41.484.71 1.125.898 1.925.19.8.284 1.792.284 2.975 0 1.217-.09 2.233-.272 3.05-.181.817-.457 1.47-.827 1.962a3.05 3.05 0 0 1-1.395 1.05c-.56.209-1.226.313-1.998.313-.363 0-.773-.025-1.23-.075a10.96 10.96 0 0 1-1.135-.175zM98.7.556h9.694v1.75h-3.783v15.75h-2.128V2.305H98.7z" />
           </svg>
         </a>
-        <form class="search" action="https://echo.htmlacademy.ru" method="post">
+        <form class="search" action="https://echo.htmlacademy.ru" method="get">
           <input class="search__input" type="search" name="search" placeholder="Поиск:">
           <button class="search__button" type="submit" title="Кнопка найти">
             <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17">
@@ -45,7 +45,7 @@
     </div>
     <div class="header__center">
       <div class="container">
-        <h1 class="info">Интернет-магазин строительных материалов<br> и инструментов для ремонта</h1>
+        <h1 class="info">Интернет-магазин строительных материалов и инструментов для ремонта</h1>
         <address class="address header__address">
           <a class="address__link" href="tel:+78125550555">+7 (812) 555-05-55
             <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19">
@@ -104,7 +104,6 @@
     </div>
   </header>
   <main class="main">
-
     <section class="products">
       <h2 class="visually-hidden">Наши продукты</h2>
       <div class="container products-wrapper-top">
@@ -182,25 +181,30 @@
               <p class="slider__text">Настоящие мужские игрушки</p>
               <a class="slider__link" href="catalog.html">Открыть каталог</a>
             </li>
+          </ul>
+          <div class="slider__arrows">
+            <a href="#" class="slider__prev slider__last">
+              <svg xmlns="http://www.w3.org/2000/svg" width="22" height="40">
+                <path fill="#FFF" d="M19.83-.035l2.089 2.099L4.13 19.947l17.847 17.939-2.09 2.099L-.048 19.947z" />
+              </svg>
+            </a>
+            <a href="#" class="slider__next">
+              <svg xmlns="http://www.w3.org/2000/svg" width="22" height="40">
+                <path fill="#FFF" d="M2.098-.035L.009 2.064l17.789 17.883L-.048 37.886l2.089 2.099 19.935-20.038z" />
+              </svg>
+            </a>
+          </div>
+          <ul class="slider__dots">
             <li>
-              <a href="#" class="slider__prev">
-                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="40">
-                  <path fill="#FFF" d="M19.83-.035l2.089 2.099L4.13 19.947l17.847 17.939-2.09 2.099L-.048 19.947z" />
-                </svg>
-              </a>
+              <a href="#" class="slider__dot slider__dot--one slider__dot--active"></a>
             </li>
             <li>
-              <a href="#" class="slider__next">
-                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="40">
-                  <path fill="#FFF" d="M2.098-.035L.009 2.064l17.789 17.883L-.048 37.886l2.089 2.099 19.935-20.038z" />
-                </svg>
-              </a>
+              <a href="#" class="slider__dot slider__dot--two"></a>
             </li>
           </ul>
         </div>
       </div>
     </section>
-
     <section class="popular-goods">
       <header class="container popular-goods__title">
         <h2 class="popular-goods__header">Популярные товары:</h2>
@@ -210,7 +214,13 @@
         <li class="item-wrapper">
           <article class="item">
             <div class="item__order-buttons">
-              <a class="item__buy" href="#">Купить</a>
+              <a class="item__buy" href="#">Купить
+                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15">
+                  <circle cx="4.5" cy="13.5" r="1.5" fill="#fff" />
+                  <circle cx="12.5" cy="13.5" r="1.5" fill="#fff" />
+                  <path fill="#fff" d="M15 2H4.07l-.422-2H0v2h2.031l1.985 9H15V9H9.441L15 6.951z" />
+                </svg>
+              </a>
               <a class="item__bookmarks" href="#">В закладки</a>
             </div>
             <a class="item__image-link" href="#">
@@ -228,7 +238,13 @@
         <li class="item-wrapper">
           <article class="item">
             <div class="item__order-buttons">
-              <a class="item__buy" href="#">Купить</a>
+              <a class="item__buy" href="#">Купить
+                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15">
+                  <circle cx="4.5" cy="13.5" r="1.5" fill="#fff" />
+                  <circle cx="12.5" cy="13.5" r="1.5" fill="#fff" />
+                  <path fill="#fff" d="M15 2H4.07l-.422-2H0v2h2.031l1.985 9H15V9H9.441L15 6.951z" />
+                </svg>
+              </a>
               <a class="item__bookmarks" href="#">В закладки</a>
             </div>
             <a class="item__image-link" href="#">
@@ -246,7 +262,13 @@
         <li class="item-wrapper">
           <article class="item">
             <div class="item__order-buttons">
-              <a class="item__buy" href="#">Купить</a>
+              <a class="item__buy" href="#">Купить
+                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15">
+                  <circle cx="4.5" cy="13.5" r="1.5" fill="#fff" />
+                  <circle cx="12.5" cy="13.5" r="1.5" fill="#fff" />
+                  <path fill="#fff" d="M15 2H4.07l-.422-2H0v2h2.031l1.985 9H15V9H9.441L15 6.951z" />
+                </svg>
+              </a>
               <a class="item__bookmarks" href="#">В закладки</a>
             </div>
             <a class="item__image-link" href="#">
@@ -265,7 +287,13 @@
         <li class="item-wrapper">
           <article class="item item--new">
             <div class="item__order-buttons">
-              <a class="item__buy" href="#">Купить</a>
+              <a class="item__buy" href="#">Купить
+                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15">
+                  <circle cx="4.5" cy="13.5" r="1.5" fill="#fff" />
+                  <circle cx="12.5" cy="13.5" r="1.5" fill="#fff" />
+                  <path fill="#fff" d="M15 2H4.07l-.422-2H0v2h2.031l1.985 9H15V9H9.441L15 6.951z" />
+                </svg>
+              </a>
               <a class="item__bookmarks" href="#">В закладки</a>
             </div>
             <a class="item__image-link" href="#">
@@ -282,7 +310,6 @@
         </li>
       </ul>
     </section>
-
     <section class="popular-manufacturers">
       <header class="container popular-manufacturers__title">
         <h2 class="popular-manufacturers__header">Популярные Производители:</h2>
@@ -332,7 +359,6 @@
         </li>
       </ul>
     </section>
-
     <section class="services">
       <div class="services-wrapper">
         <h2 class="services__title">Сервисы</h2>
@@ -371,7 +397,6 @@
         </div>
       </div>
     </section>
-
     <div class="container about-wrapper">
       <section class="about-company">
         <h2 class="about-company__title">Компания «Техномарт»</h2>
@@ -401,7 +426,6 @@
         <a class="contacts__link" href="#">Заблудились? Напишите нам!</a>
       </section>
     </div>
-
   </main>
   <footer class="footer">
     <div class="footer__top">
@@ -502,7 +526,7 @@
   <section class="write-us hide">
     <h2 class="visually-hidden">Напишите нам</h2>
     <form action="https://echo.htmlacademy.ru" method="post">
-      <header>
+      <div class="write-us__top">
         <div class="write-us__wrapper">
           <label class="write-us__name" for="name">
             <span>Ваше имя:</span>
@@ -517,10 +541,10 @@
           <span>Текст письма:</span>
           <textarea name="message" id="message" placeholder="В свободной форме"></textarea>
         </label>
-      </header>
-      <footer>
+      </div>
+      <div class="write-us__bottom">
         <button class="write-us__send" type="submit">Отправить</button>
-      </footer>
+      </div>
     </form>
     <button class="modal__close close-button-info" type="button" title="Кнопка закрыть">
       <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21">

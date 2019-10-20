@@ -15,7 +15,7 @@
         <a class="logo" href="index.html">
           <img class="logo__image" src="img/header-logo.svg" width="109" height="19" alt="Логотип Техномарт">
         </a>
-        <form class="search" action="https://echo.htmlacademy.ru" method="post">
+        <form class="search" action="https://echo.htmlacademy.ru" method="get">
           <input class="search__input" type="search" name="search" placeholder="Поиск:">
           <button class="search__button" type="submit" title="Кнопка найти">
             <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17">
@@ -42,7 +42,7 @@
     </div>
     <div class="header__center">
       <div class="container">
-        <h1 class="info">Интернет-магазин строительных материалов<br> и инструментов для ремонта</h1>
+        <h1 class="info">Интернет-магазин строительных материалов и инструментов для ремонта</h1>
         <address class="address header__address">
           <a class="address__link" href="tel:+78125550555">+7 (812) 555-05-55
             <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19">
@@ -53,8 +53,8 @@
           <p class="address__text">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
         </address>
         <div class="account">
-          <ul class="account__list account__top">
-            <li class="account__item account__name">
+          <ul class="account__top">
+            <li class="account__item account--name">
               <a class="account__link" href="#">Равшан Джамшутович
                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="18">
                   <path fill="#c5c5c5"
@@ -74,12 +74,12 @@
               </a>
             </li>
           </ul>
-          <ul class="account__list account__bottom">
-            <li class="account__item account__orders">
-              <a class="account__link account__link-orders" href="#">Мои заказы</a>
+          <ul class="account__bottom">
+            <li class="account__item account--orders">
+              <a class="account__link account__link--orders" href="#">Мои заказы</a>
             </li>
             <li class="account__item account__profile">
-              <a class="account__link account__link-profile" href="#">Личный кабинет</a>
+              <a class="account__link account__link--profile" href="#">Личный кабинет</a>
             </li>
           </ul>
         </div>
@@ -145,11 +145,11 @@
       <div class="filter-wrapper">
         <section class="filter">
           <h2 class="filter__title">Фильтр:</h2>
-          <form action="https://echo.htmlacademy.ru" method="post">
+          <form action="https://echo.htmlacademy.ru" method="get">
             <fieldset class="filter-fieldset fieldset-cost">
               <legend class="filter__heading">Цена:</legend>
               <div class="filter__cost">
-                <button class="filter__cost-button filter__cost-button-one" type="button">
+                <button class="filter__cost-button filter__cost-button--one" type="button">
                   <svg xmlns="http://www.w3.org/2000/svg" width="20" height="23">
                     <path fill="#ABABAB"
                       d="M10 20C4.477 20 0 15.522 0 10v2c0 5.522 4.477 10 10 10 5.522 0 10-4.478 10-10v-2c0 5.522-4.478 10-10 10z"
@@ -158,7 +158,7 @@
                     <circle cx="10" cy="10" r="2" fill="#ABABAB" />
                   </svg>
                 </button>
-                <button class="filter__cost-line" type="button"></button>
+                <div class="filter__cost-line"></div>
                 <button class="filter__cost-button filter__cost-button-two" type="button">
                   <svg xmlns="http://www.w3.org/2000/svg" width="20" height="23">
                     <path fill="#ABABAB"
@@ -656,7 +656,7 @@
   <section class="write-us hide">
     <h2 class="visually-hidden">Напишите нам</h2>
     <form action="https://echo.htmlacademy.ru" method="post">
-      <header>
+      <<div class="write-us__top">
         <div class="write-us__wrapper">
           <label class="write-us__name" for="name">
             <span>Ваше имя:</span>
@@ -671,10 +671,10 @@
           <span>Текст письма:</span>
           <textarea name="message" id="message" placeholder="В свободной форме"></textarea>
         </label>
-      </header>
-      <footer>
-        <button class="write-us__send" type="submit">Отправить</button>
-      </footer>
+        </div>
+        <div class="write-us__bottom">
+          <button class="write-us__send" type="submit">Отправить</button>
+        </div>
     </form>
     <button class="modal__close close-button-write-us" type="button" title="Кнопка закрыть">
       <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21">

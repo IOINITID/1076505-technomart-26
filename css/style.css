@@ -1252,11 +1252,11 @@ a[href].logo:active {
   background-color: #293449;
 }
 
-.features__item:nth-of-type(2) .features__link {
+.features__item--guarantee .features__link {
   padding: 14px 22px 17px 22px;
 }
 
-.features__item:nth-of-type(3) .features__link {
+.features__item--credit .features__link {
   padding: 15px 22px 16px 22px;
 }
 
@@ -2380,9 +2380,9 @@ a[href].logo:active {
 .cart-popup {
   width: 620px;
   position: fixed;
-  bottom: 25%;
+  top: 50%;
   left: 50%;
-  transform: translateX(-50%);
+  transform: translateX(-50%) translateY(-50%);
   background-color: #ffffff;
   z-index: 1;
   box-shadow: 0 20px 40px rgba(41, 52, 73, 0.75);
@@ -2475,9 +2475,9 @@ a[href].logo:active {
   width: 620px;
   min-height: 430px;
   position: fixed;
-  bottom: 25%;
+  top: 50%;
   left: 50%;
-  transform: translateX(-50%);
+  transform: translateX(-50%) translateY(-50%);
   background-color: #ffffff;
   z-index: 1;
   box-shadow: inset 0 6px 0 0 #ee3643;
@@ -2594,7 +2594,7 @@ a[href].logo:active {
   border: 2px solid #b5b5b5;
 }
 
-.write-us__text textarea:hover {
+.write-us__text textarea:focus {
   border: 2px solid #ee3643;
 }
 
@@ -2623,9 +2623,9 @@ a[href].logo:active {
   width: 940px;
   min-height: 447px;
   position: fixed;
-  bottom: 25%;
+  top: 50%;
   left: 50%;
-  transform: translateX(-50%);
+  transform: translateX(-50%) translateY(-50%);
   background-color: #ffffff;
   z-index: 1;
   box-shadow: 0 0 15px 1px rgba(47, 42, 43, 0.5);

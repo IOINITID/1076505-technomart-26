@@ -120,6 +120,21 @@ a[href].logo:active {
   padding-left: 48px;
   text-overflow: ellipsis;
   outline: none;
+  position: relative;
+}
+
+.search__input::-ms-input-placeholder {
+  background-color: #293449;
+  border: none;
+  width: 270px;
+  font-size: 17px;
+  color: #ffffff;
+  padding-top: 11px;
+  padding-right: 15px;
+  padding-bottom: 12px;
+  padding-left: 48px;
+  text-overflow: ellipsis;
+  outline: none;
 }
 
 .search__button {
@@ -155,6 +170,14 @@ a[href].logo:active {
   background-color: #212a3a;
 }
 
+.search__input:hover::-ms-input-placeholder {
+  background-color: #212a3a;
+}
+
+.search__input:hover:-ms-input-placeholder {
+  background-color: #212a3a;
+}
+
 .search__input:hover+.search__button {
   background-color: #212a3a;
 }
@@ -178,17 +201,39 @@ a[href].logo:active {
 
 .search__input:focus::placeholder {
   color: #000000;
+  background-color: #ffffff;
+}
+
+.search__input:focus::-ms-input-placeholder {
+  background-color: #ffffff;
+  border: none;
+  width: 270px;
+  font-size: 17px;
+  color: #000000;
+  padding-top: 11px;
+  padding-right: 15px;
+  padding-bottom: 12px;
+  padding-left: 48px;
+  text-overflow: ellipsis;
+  outline: none;
+  position: relative;
 }
 
 .search__input:focus:-ms-input-placeholder {
   background-color: #ffffff;
+  border: none;
+  width: 270px;
+  font-size: 17px;
   color: #000000;
+  padding-top: 11px;
+  padding-right: 15px;
+  padding-bottom: 12px;
+  padding-left: 48px;
+  text-overflow: ellipsis;
+  outline: none;
+  position: relative;
 }
 
-.search__input::-ms-input-placeholder {
-  background-color: #ffffff;
-  color: #000000;
-}
 
 .bookmarks {
   color: #ffffff;
@@ -1913,6 +1958,16 @@ a[href].logo:active {
   pointer-events: none;
 }
 
+.filter__items {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.filter__items li {
+  margin-bottom: 12px;
+}
+
 .goods {
   width: 700px;
 }
@@ -2606,7 +2661,7 @@ a[href].logo:active {
 }
 
 .write-us__send:active {
-background-color: #ba2732;
+  background-color: #ba2732;
 }
 
 .write-us .write-us__bottom {

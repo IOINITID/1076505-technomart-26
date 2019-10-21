@@ -446,12 +446,12 @@ a[href].logo:active {
   text-decoration: underline;
 }
 
-.account__bottom .account__orders {
+.account__bottom .account__item--orders {
   padding-right: 32px;
   position: relative;
 }
 
-.account__bottom .account__orders::before {
+.account__bottom .account__item--orders::before {
   content: "";
   width: 4px;
   min-height: 5px;
@@ -462,7 +462,7 @@ a[href].logo:active {
   right: 13px;
 }
 
-.account__top .account__name {
+.account__top .account__item--name {
   padding-right: 37px;
 }
 
@@ -470,7 +470,7 @@ a[href].logo:active {
   position: relative;
 }
 
-.account__top .account__name svg {
+.account__top .account__item--name svg {
   content: "";
   background-repeat: no-repeat;
   background-size: contain;
@@ -481,7 +481,7 @@ a[href].logo:active {
   left: 13px;
 }
 
-.account__top .account__logout {
+.account__top .account__item--logout {
   padding-top: 2px;
 }
 
@@ -511,23 +511,23 @@ a[href].logo:active {
   color: #c5c5c5;
 }
 
-.account__name:hover .account__link path {
+.account__item--name:hover .account__link path {
   fill: #32425c;
 }
 
-.account__name:active .account__link path {
+.account__item--name:active .account__link path {
   fill: #c5c5c5;
 }
 
-.account__name:active .account__link {
+.account__item--name:active .account__link {
   color: #c5c5c5;
 }
 
-.account__logout:hover .account__link path {
+.account__item--logout:hover .account__link path {
   fill: #32425c;
 }
 
-.account__logout:active .account__link path {
+.account__item--logout:active .account__link path {
   fill: #c5c5c5;
 }
 

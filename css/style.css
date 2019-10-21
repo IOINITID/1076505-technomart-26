@@ -624,7 +624,7 @@ a[href].logo:active {
   text-transform: uppercase;
   text-decoration: none;
   padding: 10px;
-  border-radius: 4px;
+  border-radius: 2px
 }
 
 .product__link:hover {
@@ -758,7 +758,7 @@ a[href].logo:active {
   padding: 12px 45px 10px 49px;
   font-kerning: none;
   z-index: 1;
-  border-radius: 4px;
+  border-radius: 2px
 }
 
 .slider__link:hover {
@@ -902,7 +902,7 @@ a[href].logo:active {
   background-color: #ee3643;
   text-decoration: none;
   padding: 12px 55px 11px 55px;
-  border-radius: 4px;
+  border-radius: 2px
 }
 
 .popular-goods__link:hover {
@@ -922,7 +922,7 @@ a[href].logo:active {
   background-color: #ee3643;
   text-decoration: none;
   padding: 9px 69px 11px 69px;
-  border-radius: 4px;
+  border-radius: 2px
 }
 
 .popular-manufacturers__link:hover {
@@ -1008,7 +1008,7 @@ a[href].logo:active {
   padding-right: 20px;
   padding-top: 10px;
   padding-bottom: 10px;
-  border-radius: 4px 0 0 4px;
+  border-radius: 2px 0 0 2px;
   cursor: default;
 }
 
@@ -1073,7 +1073,7 @@ a[href].logo:active {
   position: relative;
   text-align: center;
   padding: 11px 0 9px 0;
-  border-radius: 4px;
+  border-radius: 2px
 }
 
 .item__buy svg {
@@ -1130,7 +1130,7 @@ a[href].logo:active {
   text-decoration: none;
   padding: 7px 0px 7px 0;
   text-align: center;
-  border-radius: 4px;
+  border-radius: 2px
 }
 
 .item__bookmarks:hover {
@@ -1487,7 +1487,7 @@ a[href].logo:active {
   background-color: #ee3643;
   text-decoration: none;
   padding: 12px 39px 10px 41px;
-  border-radius: 4px;
+  border-radius: 2px
 }
 
 .about-company__link:hover {
@@ -1534,7 +1534,7 @@ a[href].logo:active {
   padding: 10px 58px 10px 65px;
   margin-top: 36px;
   text-decoration: none;
-  border-radius: 4px;
+  border-radius: 2px
 }
 
 .contacts__link:hover {
@@ -1631,7 +1631,7 @@ a[href].logo:active {
   background-color: #f7f3ec;
   padding: 10px 19px;
   text-transform: uppercase;
-  border-radius: 4px;
+  border-radius: 2px
 }
 
 .filter-fieldset {
@@ -1660,7 +1660,7 @@ a[href].logo:active {
   justify-content: center;
   position: relative;
   padding: 39px 0;
-  border-radius: 4px;
+  border-radius: 2px
 }
 
 .filter__cost-button--one {
@@ -1729,7 +1729,7 @@ a[href].logo:active {
   font-weight: 400;
   line-height: 18px;
   text-transform: uppercase;
-  border-radius: 4px;
+  border-radius: 2px
 }
 
 .filter__cost-label input::-webkit-outer-spin-button,
@@ -1836,7 +1836,7 @@ a[href].logo:active {
   margin: 0;
   letter-spacing: -1px;
   cursor: pointer;
-  border-radius: 4px;
+  border-radius: 2px
   outline: none;
 }
 
@@ -1923,7 +1923,7 @@ a[href].logo:active {
   margin-bottom: 20px;
   padding-top: 9px;
   padding-bottom: 11px;
-  border-radius: 4px;
+  border-radius: 2px
 }
 
 .sort {
@@ -2081,7 +2081,7 @@ a[href].logo:active {
   text-transform: uppercase;
   margin-right: 10px;
   padding: 9px 0;
-  border-radius: 4px;
+  border-radius: 2px
 }
 
 .pagination__link:hover,
@@ -2431,7 +2431,7 @@ a[href].logo:active {
   padding: 10px 9px 10px 6px;
   text-decoration: none;
   margin-right: 20px;
-  border-radius: 4px;
+  border-radius: 2px
 }
 
 .cart-popup .checkout-link:hover {
@@ -2452,7 +2452,7 @@ a[href].logo:active {
   background-color: #ffffff;
   padding: 10px 44px 10px 44px;
   text-decoration: none;
-  border-radius: 4px;
+  border-radius: 2px
 }
 
 .write-us {
@@ -2509,7 +2509,7 @@ a[href].logo:active {
   font-size: 13px;
   font-weight: 400;
   line-height: 16px;
-  border-radius: 4px;
+  border-radius: 2px
   outline: none;
 }
 
@@ -2570,7 +2570,7 @@ a[href].logo:active {
   font-size: 13px;
   font-weight: 400;
   line-height: 18px;
-  border-radius: 4px;
+  border-radius: 2px
   outline: none;
 }
 
@@ -2594,7 +2594,7 @@ a[href].logo:active {
   border: none;
   width: 100%;
   cursor: pointer;
-  border-radius: 4px;
+  border-radius: 2px
 }
 
 .write-us .write-us__bottom {

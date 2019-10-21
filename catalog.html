@@ -54,7 +54,7 @@
         </address>
         <div class="account">
           <ul class="account__top">
-            <li class="account__item account--name">
+            <li class="account__item account__name">
               <a class="account__link" href="#">Равшан Джамшутович
                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="18">
                   <path fill="#c5c5c5"
@@ -75,7 +75,7 @@
             </li>
           </ul>
           <ul class="account__bottom">
-            <li class="account__item account--orders">
+            <li class="account__item account__orders">
               <a class="account__link account__link--orders" href="#">Мои заказы</a>
             </li>
             <li class="account__item account__profile">
@@ -149,7 +149,7 @@
             <fieldset class="filter-fieldset fieldset-cost">
               <legend class="filter__heading">Цена:</legend>
               <div class="filter__cost">
-                <button class="filter__cost-button filter__cost-button--one" type="button">
+                <button class="filter__cost-button filter__cost-button--min-price" type="button">
                   <svg xmlns="http://www.w3.org/2000/svg" width="20" height="23">
                     <path fill="#ABABAB"
                       d="M10 20C4.477 20 0 15.522 0 10v2c0 5.522 4.477 10 10 10 5.522 0 10-4.478 10-10v-2c0 5.522-4.478 10-10 10z"
@@ -159,7 +159,7 @@
                   </svg>
                 </button>
                 <div class="filter__cost-line"></div>
-                <button class="filter__cost-button filter__cost-button-two" type="button">
+                <button class="filter__cost-button filter__cost-button--max-price" type="button">
                   <svg xmlns="http://www.w3.org/2000/svg" width="20" height="23">
                     <path fill="#ABABAB"
                       d="M10 20C4.477 20 0 15.522 0 10v2c0 5.522 4.477 10 10 10 5.522 0 10-4.478 10-10v-2c0 5.522-4.478 10-10 10z"
@@ -182,60 +182,60 @@
               <legend class="filter__heading">Производители:</legend>
               <label class="filter__item" for="bosch">
                 <input class="filter__item-checkbox" type="checkbox" name="bosch" id="bosch" checked>
-                <svg class="filter-icon-checked" xmlns="http://www.w3.org/2000/svg" width="27" height="23">
-                  <path class="filter-icon--none" fill="#c5c5c5"
+                <svg class="checkbox-icon" xmlns="http://www.w3.org/2000/svg" width="27" height="23">
+                  <path class="checkbox-icon__unchecked" fill="#c5c5c5"
                     d="M20 2c.542 0 1 .458 1 1v17c0 .542-.458 1-1 1H3c-.542 0-1-.458-1-1V3c0-.542.458-1 1-1h17m0-2H3C1.35 0 0 1.35 0 3v17c0 1.65 1.35 3 3 3h17c1.65 0 3-1.35 3-3V3c0-1.65-1.35-3-3-3z" />
-                  <path class="filter-icon--checked" fill="#c5c5c5"
+                  <path class="checkbox-icon__checked" fill="#c5c5c5"
                     d="M7.285 7.486l-2.829 2.829 7.783 7.783L26.171 4.166l-2.828-2.829-11.104 11.102z" />
-                  <path class="filter-icon--checked" fill="#c5c5c5"
+                  <path class="checkbox-icon__checked" fill="#c5c5c5"
                     d="M21 20c0 .542-.458 1-1 1H3c-.542 0-1-.458-1-1V3c0-.542.458-1 1-1h16.908L21.493.415A2.96 2.96 0 0 0 20 0H3C1.35 0 0 1.35 0 3v17c0 1.65 1.35 3 3 3h17c1.65 0 3-1.35 3-3v-9.829l-2 2V20z" />
                 </svg>
                 <span class="filter__item-title">Bosch</span>
               </label>
               <label class="filter__item" for="interscop">
                 <input class="filter__item-checkbox" type="checkbox" name="interscop" id="interscop">
-                <svg class="filter-icon-checked" xmlns="http://www.w3.org/2000/svg" width="27" height="23">
-                  <path class="filter-icon--none" fill="#c5c5c5"
+                <svg class="checkbox-icon" xmlns="http://www.w3.org/2000/svg" width="27" height="23">
+                  <path class="checkbox-icon__unchecked" fill="#c5c5c5"
                     d="M20 2c.542 0 1 .458 1 1v17c0 .542-.458 1-1 1H3c-.542 0-1-.458-1-1V3c0-.542.458-1 1-1h17m0-2H3C1.35 0 0 1.35 0 3v17c0 1.65 1.35 3 3 3h17c1.65 0 3-1.35 3-3V3c0-1.65-1.35-3-3-3z" />
-                  <path class="filter-icon--checked" fill="#c5c5c5"
+                  <path class="checkbox-icon__checked" fill="#c5c5c5"
                     d="M7.285 7.486l-2.829 2.829 7.783 7.783L26.171 4.166l-2.828-2.829-11.104 11.102z" />
-                  <path class="filter-icon--checked" fill="#c5c5c5"
+                  <path class="checkbox-icon__checked" fill="#c5c5c5"
                     d="M21 20c0 .542-.458 1-1 1H3c-.542 0-1-.458-1-1V3c0-.542.458-1 1-1h16.908L21.493.415A2.96 2.96 0 0 0 20 0H3C1.35 0 0 1.35 0 3v17c0 1.65 1.35 3 3 3h17c1.65 0 3-1.35 3-3v-9.829l-2 2V20z" />
                 </svg>
                 <span class="filter__item-title">Интерскол</span>
               </label>
               <label class="filter__item" for="makita">
                 <input class="filter__item-checkbox" type="checkbox" name="makita" id="makita" checked>
-                <svg class="filter-icon-checked" xmlns="http://www.w3.org/2000/svg" width="27" height="23">
-                  <path class="filter-icon--none" fill="#c5c5c5"
+                <svg class="checkbox-icon" xmlns="http://www.w3.org/2000/svg" width="27" height="23">
+                  <path class="checkbox-icon__unchecked" fill="#c5c5c5"
                     d="M20 2c.542 0 1 .458 1 1v17c0 .542-.458 1-1 1H3c-.542 0-1-.458-1-1V3c0-.542.458-1 1-1h17m0-2H3C1.35 0 0 1.35 0 3v17c0 1.65 1.35 3 3 3h17c1.65 0 3-1.35 3-3V3c0-1.65-1.35-3-3-3z" />
-                  <path class="filter-icon--checked" fill="#c5c5c5"
+                  <path class="checkbox-icon__checked" fill="#c5c5c5"
                     d="M7.285 7.486l-2.829 2.829 7.783 7.783L26.171 4.166l-2.828-2.829-11.104 11.102z" />
-                  <path class="filter-icon--checked" fill="#c5c5c5"
+                  <path class="checkbox-icon__checked" fill="#c5c5c5"
                     d="M21 20c0 .542-.458 1-1 1H3c-.542 0-1-.458-1-1V3c0-.542.458-1 1-1h16.908L21.493.415A2.96 2.96 0 0 0 20 0H3C1.35 0 0 1.35 0 3v17c0 1.65 1.35 3 3 3h17c1.65 0 3-1.35 3-3v-9.829l-2 2V20z" />
                 </svg>
                 <span class="filter__item-title">Makita</span>
               </label>
               <label class="filter__item" for="dewalt">
                 <input class="filter__item-checkbox" type="checkbox" name="dewalt" id="dewalt">
-                <svg class="filter-icon-checked" xmlns="http://www.w3.org/2000/svg" width="27" height="23">
-                  <path class="filter-icon--none" fill="#c5c5c5"
+                <svg class="checkbox-icon" xmlns="http://www.w3.org/2000/svg" width="27" height="23">
+                  <path class="checkbox-icon__unchecked" fill="#c5c5c5"
                     d="M20 2c.542 0 1 .458 1 1v17c0 .542-.458 1-1 1H3c-.542 0-1-.458-1-1V3c0-.542.458-1 1-1h17m0-2H3C1.35 0 0 1.35 0 3v17c0 1.65 1.35 3 3 3h17c1.65 0 3-1.35 3-3V3c0-1.65-1.35-3-3-3z" />
-                  <path class="filter-icon--checked" fill="#c5c5c5"
+                  <path class="checkbox-icon__checked" fill="#c5c5c5"
                     d="M7.285 7.486l-2.829 2.829 7.783 7.783L26.171 4.166l-2.828-2.829-11.104 11.102z" />
-                  <path class="filter-icon--checked" fill="#c5c5c5"
+                  <path class="checkbox-icon__checked" fill="#c5c5c5"
                     d="M21 20c0 .542-.458 1-1 1H3c-.542 0-1-.458-1-1V3c0-.542.458-1 1-1h16.908L21.493.415A2.96 2.96 0 0 0 20 0H3C1.35 0 0 1.35 0 3v17c0 1.65 1.35 3 3 3h17c1.65 0 3-1.35 3-3v-9.829l-2 2V20z" />
                 </svg>
                 <span class="filter__item-title">Dewalt</span>
               </label>
               <label class="filter__item" for="hitachi">
                 <input class="filter__item-checkbox" type="checkbox" name="hitachi" id="hitachi">
-                <svg class="filter-icon-checked" xmlns="http://www.w3.org/2000/svg" width="27" height="23">
-                  <path class="filter-icon--none" fill="#c5c5c5"
+                <svg class="checkbox-icon" xmlns="http://www.w3.org/2000/svg" width="27" height="23">
+                  <path class="checkbox-icon__unchecked" fill="#c5c5c5"
                     d="M20 2c.542 0 1 .458 1 1v17c0 .542-.458 1-1 1H3c-.542 0-1-.458-1-1V3c0-.542.458-1 1-1h17m0-2H3C1.35 0 0 1.35 0 3v17c0 1.65 1.35 3 3 3h17c1.65 0 3-1.35 3-3V3c0-1.65-1.35-3-3-3z" />
-                  <path class="filter-icon--checked" fill="#c5c5c5"
+                  <path class="checkbox-icon__checked" fill="#c5c5c5"
                     d="M7.285 7.486l-2.829 2.829 7.783 7.783L26.171 4.166l-2.828-2.829-11.104 11.102z" />
-                  <path class="filter-icon--checked" fill="#c5c5c5"
+                  <path class="checkbox-icon__checked" fill="#c5c5c5"
                     d="M21 20c0 .542-.458 1-1 1H3c-.542 0-1-.458-1-1V3c0-.542.458-1 1-1h16.908L21.493.415A2.96 2.96 0 0 0 20 0H3C1.35 0 0 1.35 0 3v17c0 1.65 1.35 3 3 3h17c1.65 0 3-1.35 3-3v-9.829l-2 2V20z" />
                 </svg>
                 <span class="filter__item-title">Hitachi</span>
@@ -246,19 +246,19 @@
               <label class="filter__item" for="rechargeable">
                 <input class="filter__item-radio" type="radio" name="supply" id="rechargeable" value="rechargeable"
                   checked>
-                <svg class="filter-icon-checked" xmlns="http://www.w3.org/2000/svg" width="25" height="25">
-                  <path class="filter-icon--none" fill="#c5c5c5"
+                <svg class="checkbox-icon" xmlns="http://www.w3.org/2000/svg" width="25" height="25">
+                  <path class="checkbox-icon__unchecked" fill="#c5c5c5"
                     d="M12.5 4c4.687 0 8.5 3.813 8.5 8.5 0 4.687-3.813 8.5-8.5 8.5C7.813 21 4 17.187 4 12.5 4 7.813 7.813 4 12.5 4m0-4C5.597 0 0 5.597 0 12.5S5.597 25 12.5 25 25 19.403 25 12.5 19.403 0 12.5 0z" />
-                  <circle class="filter-icon--checked" cx="12.5" cy="12.5" r="4.5" fill="#c5c5c5" />
+                  <circle class="checkbox-icon__checked" cx="12.5" cy="12.5" r="4.5" fill="#c5c5c5" />
                 </svg>
                 <span class="filter__item-title">Аккумуляторные</span>
               </label>
               <label class="filter__item" for="network">
                 <input class="filter__item-radio" type="radio" name="supply" id="network" value="network">
-                <svg class="filter-icon-checked" xmlns="http://www.w3.org/2000/svg" width="25" height="25">
-                  <path class="filter-icon--none" fill="#c5c5c5"
+                <svg class="checkbox-icon" xmlns="http://www.w3.org/2000/svg" width="25" height="25">
+                  <path class="checkbox-icon__unchecked" fill="#c5c5c5"
                     d="M12.5 4c4.687 0 8.5 3.813 8.5 8.5 0 4.687-3.813 8.5-8.5 8.5C7.813 21 4 17.187 4 12.5 4 7.813 7.813 4 12.5 4m0-4C5.597 0 0 5.597 0 12.5S5.597 25 12.5 25 25 19.403 25 12.5 19.403 0 12.5 0z" />
-                  <circle class="filter-icon--checked" cx="12.5" cy="12.5" r="4.5" fill="#c5c5c5" />
+                  <circle class="checkbox-icon__checked" cx="12.5" cy="12.5" r="4.5" fill="#c5c5c5" />
                 </svg>
                 <span class="filter__item-title">Сетевые</span>
               </label>

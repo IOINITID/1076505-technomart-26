@@ -446,12 +446,12 @@ a[href].logo:active {
   text-decoration: underline;
 }
 
-.account__bottom .account--orders {
+.account__bottom .account__orders {
   padding-right: 32px;
   position: relative;
 }
 
-.account__bottom .account--orders::before {
+.account__bottom .account__orders::before {
   content: "";
   width: 4px;
   min-height: 5px;
@@ -462,7 +462,7 @@ a[href].logo:active {
   right: 13px;
 }
 
-.account__top .account--name {
+.account__top .account__name {
   padding-right: 37px;
 }
 
@@ -470,7 +470,7 @@ a[href].logo:active {
   position: relative;
 }
 
-.account__top .account--name svg {
+.account__top .account__name svg {
   content: "";
   background-repeat: no-repeat;
   background-size: contain;
@@ -511,15 +511,15 @@ a[href].logo:active {
   color: #c5c5c5;
 }
 
-.account--name:hover .account__link path {
+.account__name:hover .account__link path {
   fill: #32425c;
 }
 
-.account--name:active .account__link path {
+.account__name:active .account__link path {
   fill: #c5c5c5;
 }
 
-.account--name:active .account__link {
+.account__name:active .account__link {
   color: #c5c5c5;
 }
 
@@ -1663,7 +1663,7 @@ a[href].logo:active {
   border-radius: 2px
 }
 
-.filter__cost-button--one {
+.filter__cost-button--min-price {
   position: absolute;
   top: 30px;
   left: 20px;
@@ -1677,7 +1677,7 @@ a[href].logo:active {
   cursor: pointer;
 }
 
-.filter__cost-button-two {
+.filter__cost-button--max-price {
   position: absolute;
   top: 30px;
   right: 40px;
@@ -1850,23 +1850,23 @@ a[href].logo:active {
   color: #000000;
 }
 
-.filter-icon-checked .filter-icon--none {
+.checkbox-icon .checkbox-icon__unchecked {
   display: block;
 }
 
-.filter-icon-checked .filter-icon--checked {
+.checkbox-icon .checkbox-icon__checked {
   display: none;
 }
 
-.filter__item-checkbox:checked~.filter-icon-checked .filter-icon--none {
+.filter__item-checkbox:checked~.checkbox-icon .checkbox-icon__unchecked {
   display: none;
 }
 
-.filter__item-checkbox:checked~.filter-icon-checked .filter-icon--checked {
+.filter__item-checkbox:checked~.checkbox-icon .checkbox-icon__checked {
   display: block;
 }
 
-.filter__item-checkbox:disabled~.filter-icon-checked {
+.filter__item-checkbox:disabled~.checkbox-icon {
   fill: #c5c5c5;
   opacity: 0.3;
   cursor: default;
@@ -1880,8 +1880,8 @@ a[href].logo:active {
   pointer-events: none;
 }
 
-.filter-icon-checked:hover path,
-.filter-icon-checked:hover circle {
+.checkbox-icon:hover path,
+.checkbox-icon:hover circle {
   fill: #b5b5b5;
 }
 
@@ -1889,15 +1889,15 @@ a[href].logo:active {
   display: none;
 }
 
-.filter__item-radio~.filter-icon-checked .filter-icon--checked {
+.filter__item-radio~.checkbox-icon .checkbox-icon__checked {
   display: none;
 }
 
-.filter__item-radio:checked~.filter-icon-checked .filter-icon--checked {
+.filter__item-radio:checked~.checkbox-icon .checkbox-icon__checked {
   display: block;
 }
 
-.filter__item-radio:disabled~.filter-icon-checked {
+.filter__item-radio:disabled~.checkbox-icon {
   fill: #c5c5c5;
   opacity: 0.3;
   cursor: default;

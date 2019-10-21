@@ -531,16 +531,17 @@
         <div class="write-us__wrapper">
           <label class="write-us__name" for="name">
             <span>Ваше имя:</span>
-            <input type="text" name="name" id="name" placeholder="Имя Фамилия">
+            <input class="name-field" type="text" name="name" id="name" required placeholder="Имя Фамилия">
           </label>
           <label class="write-us__email" for="email">
             <span>Ваш e-mail:</span>
-            <input type="email" name="email" id="email" placeholder="email@example.com">
+            <input class="email-field" type="email" name="email" id="email" required placeholder="email@example.com">
           </label>
         </div>
         <label class="write-us__text" for="message">
           <span>Текст письма:</span>
-          <textarea name="message" id="message" placeholder="В свободной форме"></textarea>
+          <textarea class="message-field" name="message" id="message" required
+            placeholder="В свободной форме"></textarea>
         </label>
       </div>
       <div class="write-us__bottom">

@@ -8,6 +8,7 @@ var closeModalInfo = document.querySelector('.close-button-info');
 var cartButtons = document.querySelectorAll('.item__buy');
 var cart = document.querySelector('.cart-popup');
 var closeModalCart = document.querySelector('.close-button-cart');
+var toShopingLink = document.querySelector('.cart-popup .shoping-link');
 
 if (mapButton) {
   mapButton.addEventListener('click', function (evt) {
@@ -55,6 +56,10 @@ if (cartButtons) {
 }
 if (closeModalCart) {
   closeModalCart.addEventListener('click', function (evt) {
+    evt.preventDefault();
+    cart.classList.add('hide');
+  });
+  toShopingLink.addEventListener('click', function (evt) {
     evt.preventDefault();
     cart.classList.add('hide');
   });

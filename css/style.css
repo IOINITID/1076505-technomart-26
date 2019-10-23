@@ -237,13 +237,14 @@ a[href].logo:active {
 
 
 .bookmarks {
+  width: 150px;
   color: #ffffff;
   font-size: 17px;
   font-weight: 400;
   text-decoration: none;
   position: relative;
   padding-left: 44px;
-  padding-right: 28px;
+  padding-right: 20px;
   padding-top: 11px;
   padding-bottom: 12px;
 }
@@ -277,13 +278,14 @@ a[href].logo:active {
 }
 
 .basket {
+  width: 150px;
   color: #ffffff;
   font-size: 17px;
   font-weight: 400;
   text-decoration: none;
   position: relative;
   padding-top: 11px;
-  padding-right: 31px;
+  padding-right: 20px;
   padding-bottom: 12px;
   padding-left: 49px;
 }
@@ -326,14 +328,15 @@ a[href].logo:active {
 }
 
 .checkout {
+  width: 150px;
   color: #ffffff;
   font-size: 17px;
   font-weight: 400;
   text-decoration: none;
   background-color: #63a63e;
   padding-top: 11px;
-  padding-right: 21px;
   padding-bottom: 12px;
+  padding-right: 20px;
   padding-left: 20px;
 }
 

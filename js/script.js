@@ -52,6 +52,7 @@ if (cartButtons) {
     for (var i = 0; i < cartButtons.length; i++) {
       cartButtons[i].addEventListener("click", function (evt) {
         evt.preventDefault();
+        basketTitle.classList.add('basket--active')
         cart.classList.remove('hide');
       });
     }
@@ -68,7 +69,6 @@ if (closeModalCart && toShopingLink && toCheckoutLink) {
   });
   toCheckoutLink.addEventListener('click', function (evt) {
     evt.preventDefault();
-    basketTitle.classList.add('basket--active')
     cart.classList.add('hide');
   });
   window.addEventListener('keydown', function (evt) {

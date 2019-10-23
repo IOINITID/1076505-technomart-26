@@ -56,8 +56,8 @@ body {
   font-family: "Cuprum", "Arial", sans-serif;
   font-weight: 400;
   font-size: 14px;
-  /* line-height: 1.2; */
   color: #000000;
+  min-width: 1200px;
 }
 
 .container {
@@ -164,6 +164,7 @@ a[href].logo:active {
 
 .search__input::placeholder {
   color: #ffffff;
+  opacity: 1;
 }
 
 .search__input:hover {
@@ -344,7 +345,7 @@ a[href].logo:active {
 
 .header__center {
   padding-top: 46px;
-  padding-bottom: 40px;
+  padding-bottom: 41px;
 }
 
 .header__center .container {
@@ -353,17 +354,17 @@ a[href].logo:active {
 
 .info {
   color: #ee3643;
-  font-size: 15px;
+  font-size: 16px;
   font-style: italic;
   font-weight: 400;
   line-height: 23px;
-  padding-top: 3px;
+  padding-top: 2px;
   margin: 0;
-  max-width: 196px;
+  max-width: 197px;
 }
 
 .header__address {
-  margin-left: 71px;
+  margin-left: 70px;
   width: 270px;
 }
 
@@ -1797,6 +1798,7 @@ a[href].logo:active {
   font-weight: 400;
   line-height: 18px;
   text-transform: uppercase;
+  opacity: 1;
 }
 
 .fieldset-manufacturer {

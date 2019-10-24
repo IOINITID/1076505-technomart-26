@@ -57,7 +57,7 @@ body {
   font-weight: 400;
   font-size: 14px;
   color: #000000;
-  min-width: 1200px;
+  min-width: 940px;
 }
 
 .container {
@@ -1468,7 +1468,7 @@ a[href].logo:active {
 
 .about-wrapper {
   margin-top: 79px;
-  margin-bottom: 86px;
+  margin-bottom: 87px;
   display: flex;
   justify-content: space-between;
 }
@@ -2223,6 +2223,10 @@ a[href].logo:active {
   word-spacing: 1px;
 }
 
+.footer {
+  background-color: #32425c;
+}
+
 .footer__top {
   background-color: #32425c;
   padding-bottom: 28px;
@@ -2246,6 +2250,10 @@ a[href].logo:active {
   text-decoration: none;
   margin-right: 59px;
   font-kerning: none;
+}
+
+.footer__menu-item:last-child .footer__menu-link {
+  margin: 0;
 }
 
 .footer__menu-link:hover {

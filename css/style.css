@@ -357,7 +357,7 @@ a[href].logo:active {
 }
 
 .header__center .container {
-  padding-left: 53px;
+  padding-left: 63px;
 }
 
 .info {
@@ -916,6 +916,7 @@ a[href].logo:active {
   padding-left: 28px;
   padding-right: 24px;
   margin-bottom: 20px;
+  width: 940px;
 }
 
 .popular-manufacturers__title {
@@ -925,6 +926,7 @@ a[href].logo:active {
   padding-left: 28px;
   padding-right: 24px;
   margin-bottom: 20px;
+  width: 940px;
 }
 
 .popular-goods__header {
@@ -989,7 +991,7 @@ a[href].logo:active {
 
 .popular-goods__items {
   list-style: none;
-  padding: 0;
+  padding: 0 10px;
   flex-wrap: wrap;
   margin-bottom: 0;
 }
@@ -1199,7 +1201,7 @@ a[href].logo:active {
 
 .manufacturers {
   list-style: none;
-  padding: 0;
+  padding: 0 10px;
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;

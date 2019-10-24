@@ -57,14 +57,15 @@ body {
   font-weight: 400;
   font-size: 14px;
   color: #000000;
-  min-width: 940px;
+  min-width: 960px;
 }
 
 .container {
-  width: 940px;
+  width: 960px;
   margin-left: auto;
   margin-right: auto;
   display: flex;
+  padding: 0 10px;
 }
 
 .visually-hidden {

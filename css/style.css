@@ -1004,15 +1004,6 @@ a[href].logo:active {
   position: relative;
 }
 
-.item-link {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 0;
-}
-
 .popular-goods__items .item:hover {
   box-shadow: 0 10px 25px rgba(41, 52, 73, 0.5);
   background-color: #ffffff;
@@ -1218,12 +1209,17 @@ a[href].logo:active {
 .manufacturer {
   width: 220px;
   min-height: 145px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   border: 1px solid #eaeaea;
   background-color: #ffffff;
   margin-bottom: 20px;
+}
+
+.manufacturer a {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .manufacturer:hover {

@@ -2366,7 +2366,8 @@ a[href].logo:active {
   line-height: 18px;
   margin: 0;
   padding-left: 1px;
-  margin-right: 158px;
+  margin-right: 157px;
+  width: 232px;
 }
 
 .copyright__socials {
@@ -2456,7 +2457,9 @@ a[href].logo:active {
   width: 287px;
 }
 
-.footer-address__item:nth-of-type(1) {}
+.footer-address__item:nth-of-type(1) {
+  width: 136px;
+}
 
 .footer-address__item:nth-of-type(2) {
   margin-left: 52px;
